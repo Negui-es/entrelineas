@@ -1,0 +1,4 @@
+{% extends "auth_base.html" %}{% load i18n %}
+{% block title %}{% translate "Crear cuenta" %}{% endblock %}
+{% block auth_content %}<h1>{% translate "Crear cuenta" %}</h1><p class="muted">{% translate "Tus reseñas son privadas por defecto." %}</p>
+<form method="post" action="{% url 'account_signup' %}" class="stack-form">{% csrf_token %}{{ redirect_field }}{% include "partials/form_fields.html" %}<button class="button primary" type="submit">{% translate "Crear cuenta" %}</button></form><p class="auth-switch">{% translate "¿Ya tienes cuenta?" %} <a href="{% url 'account_login' %}">{% translate "Entrar" %}</a></p>{% endblock %}

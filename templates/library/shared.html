@@ -1,0 +1,3 @@
+{% extends "base.html" %}{% load i18n %}{% load library_tags %}
+{% block title %}{% translate "Lista de deseos de" %} {{ display_name }}{% endblock %}
+{% block content %}<div class="page-heading"><div><h1>{% translate "Lista de deseos de" %} {{ display_name }}</h1></div></div><div class="book-grid">{% for item in items %}{% include "partials/wish_card.html" with shared=True %}{% empty %}<div class="empty-state"><h2>{% translate "Esta lista está vacía." %}</h2><p>{% translate "Vuelve cuando haya nuevos deseos." %}</p></div>{% endfor %}</div>{% endblock %}

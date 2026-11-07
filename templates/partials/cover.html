@@ -1,0 +1,3 @@
+{% load i18n %}
+<div class="book-cover {{ book.color }}{% if book.cover_url %} has-image{% endif %}" aria-hidden="true"><span class="cover-author">{% firstof book.metadata.author book.author %}</span><span class="cover-title">{% firstof book.metadata.title book.title %}</span><span class="cover-art"></span>{% if book.cover_url %}<img src="{{ book.cover_url }}" alt="" loading="lazy" referrerpolicy="no-referrer" class="catalog-cover-image">{% endif %}</div>
+

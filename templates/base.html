@@ -1,0 +1,54 @@
+{% load i18n %}
+{% load static library_tags %}
+<!doctype html>
+{% get_current_language as page_language %}<html lang="{{ page_language }}" data-theme="{% if user.is_authenticated %}{{ user.theme|default:'auto' }}{% else %}auto{% endif %}">
+<head>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+ <meta name="description" content="{% translate "Entrelíneas: tu biblioteca, tus reseñas y todo lo que te deja un libro." %}">
+ <meta name="color-scheme" content="light dark">
+ <title>{% block title %}{% translate "Mi rincón lector" %}{% endblock %} {% translate "· Entrelíneas" %}</title>
+ <link rel="icon" href="{% static 'favicon.svg' %}" type="image/svg+xml">
+ <link rel="manifest" href="{% url 'pwa_manifest' %}?lang={{ page_language }}">
+ <link rel="apple-touch-icon" sizes="180x180" href="{% static 'pwa/apple-touch-icon.png' %}">
+ <meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Entrelíneas"><meta name="apple-mobile-web-app-status-bar-style" content="default">
+ {% if user.is_authenticated and user.theme == 'light' %}<meta name="theme-color" content="#f6f5fb">{% elif user.is_authenticated and user.theme == 'dark' %}<meta name="theme-color" content="#191724">{% else %}<meta name="theme-color" content="#f6f5fb" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#191724" media="(prefers-color-scheme: dark)">{% endif %}
+ <link rel="stylesheet" href="{% static 'app.css' %}">
+ <script src="{% url 'javascript-catalog' %}" defer></script><script src="{% static 'validation.js' %}" defer></script><script src="{% static 'app.js' %}" defer></script>
+ <script src="{% static 'notifications.js' %}" defer></script>
+ <script src="{% static 'pwa.js' %}" defer></script>
+ <script src="{% static 'theme.js' %}" defer></script>
+ {% block extra_scripts %}{% endblock %}
+</head>
+<body{% if user.is_authenticated %} class="has-app-navigation"{% endif %}>
+<a class="skip-link" href="#contenido">{% translate "Ir al contenido" %}</a>
+<header class="app-header">
+ <div class="header-inner">
+  <a class="logo" href="{% url 'home' %}" aria-label="{% translate "Entrelíneas, inicio" %}">{% include "brand/logo.html" %}</a>
+  <details class="language-picker"><summary aria-label="{% translate 'Idioma' %}">{{ current_language|upper }}</summary><ul>{% for language in language_links %}<li><a href="{{ language.url }}" lang="{{ language.code }}" hreflang="{{ language.code }}" {% if language.code == current_language %}aria-current="true"{% endif %}>{{ language.label }}</a></li>{% endfor %}</ul></details>
+  {% if user.is_authenticated %}
+  <nav class="main-nav" aria-label="{% translate "Navegación principal" %}">
+   <a href="{% url 'home' %}" {% if section == 'home' %}class="active" aria-current="page"{% endif %}>{% icon 'home' %}<span>{% translate "Inicio" %}</span></a>
+   <a href="{% url 'catalog_search' %}" {% if section == 'catalog' %}class="active" aria-current="page"{% endif %}>{% icon 'search' %}<span class="nav-desktop-label">{% translate "Buscar libros" %}</span><span class="nav-mobile-label">{% translate "Buscar" %}</span></a>
+   <a href="{% url 'reviews' %}" {% if section == 'reviews' %}class="active" aria-current="page"{% endif %}>{% icon 'grid' %}<span class="nav-desktop-label">{% translate "Mis reseñas" %}</span><span class="nav-mobile-label">{% translate "Reseñas" %}</span><span class="nav-count">{{ nav_review_count }}</span></a>
+   <a href="{% url 'library' %}" {% if section == 'library' %}class="active" aria-current="page"{% endif %}>{% icon 'library' %}<span>{% translate "Biblioteca" %}</span></a>
+   <a href="{% url 'wishlist' %}" {% if section == 'wishes' %}class="active" aria-current="page"{% endif %}>{% icon 'bookmark' %}<span class="nav-desktop-label">{% translate "Lista de deseos" %}</span><span class="nav-mobile-label">{% translate "Deseos" %}</span></a>
+  </nav>
+  <a class="profile-link" href="{% url 'profile' %}" aria-label="{% translate "Mi cuenta:" %} {{ user.display_name }}"><span class="avatar">{{ user.initial }}</span><span class="profile-name">{{ user.display_name }}</span></a>
+  {% else %}{% block guest_action %}<a class="button secondary small" href="{% url 'account_login' %}">{% translate "Iniciar sesión" %}</a>{% endblock %}{% endif %}
+ </div>
+</header>
+{% block utility %}{% if user.is_authenticated and section != 'catalog' %}
+<div class="utility-row">
+ <form class="search-form" method="get" action="{% if section == 'library' %}{% url 'library' %}{% elif section == 'wishes' %}{% url 'wishlist' %}{% else %}{% url 'reviews' %}{% endif %}" role="search">
+  {% icon 'search' %}<input type="search" name="q" value="{{ query }}" placeholder="{% translate "Buscar en mis libros…" %}" aria-label="{% translate "Buscar en mis libros" %}"><button type="submit" aria-label="{% translate "Buscar" %}">{% icon 'arrow' %}</button>
+ </form><span class="privacy-label">{% icon 'lock' %} {% translate "Tu espacio privado" %}</span>
+</div>
+{% endif %}{% endblock %}
+<main id="contenido" class="main-container">
+ {% if messages %}<div class="messages toast-region" aria-label="{% translate 'Notificaciones' %}">{% for message in messages %}<div class="message {{ message.tags }}" data-toast data-level="{{ message.level }}" role="{% if message.level >= 40 %}alert{% else %}status{% endif %}" aria-atomic="true">{% if message.level >= 30 %}<span class="message-marker" aria-hidden="true">!</span>{% elif message.level == 25 %}{% icon 'check' %}{% else %}<span class="message-marker" aria-hidden="true">i</span>{% endif %}<span class="message-text">{{ message }}</span><button class="toast-close" type="button" data-toast-close aria-label="{% translate 'Cerrar aviso' %}"><span aria-hidden="true">×</span></button></div>{% endfor %}</div>{% endif %}
+ {% block content %}{% endblock %}
+</main>
+<footer class="app-footer"><span class="footer-brand" role="img" aria-label="Entrelíneas">{% include "brand/wordmark.html" %}</span></footer>
+{% include "partials/install_app.html" %}
+</body>
+</html>

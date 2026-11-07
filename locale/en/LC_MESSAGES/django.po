@@ -1,0 +1,2800 @@
+# Entrelíneas interface translations. Generated from locale/messages.json.
+msgid ""
+msgstr "Language: en\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "%(current)s de %(total)s"
+msgstr "%(current)s of %(total)s"
+
+msgid "%(provider)s no ha respondido. Puedes usar los resultados de las otras fuentes."
+msgstr "%(provider)s did not respond. You can use results from the other sources."
+
+msgid ". Buscando la edición…"
+msgstr ". Finding the edition…"
+
+msgid "404 · Página no encontrada"
+msgstr "404 · Page not found"
+
+msgid "500 · Algo ha fallado"
+msgstr "500 · Something went wrong"
+
+msgid "503 · Biblioteca en pausa"
+msgstr "503 · Library on a break"
+
+msgid "A mi biblioteca"
+msgstr "Add to library"
+
+msgid "A mis deseos"
+msgstr "Add to wishlist"
+
+msgid "A tu ritmo, página a página. Cada lectura cuenta."
+msgstr "At your own pace, page by page. Every read counts."
+
+msgid "Abandonado"
+msgstr "Abandoned"
+
+msgid "Abandonados"
+msgstr "Abandoned"
+
+msgid "Abre Goodreads en el navegador e inicia sesión."
+msgstr "Open Goodreads in your browser and sign in."
+
+msgid "Abre el menú del navegador (⋮)."
+msgstr "Open the browser menu (⋮)."
+
+msgid "Abre esta web en Safari."
+msgstr "Open this website in Safari."
+
+msgid "Abre primero la ficha de la edición"
+msgstr "Open the edition’s details first"
+
+msgid "Abriendo la cámara…"
+msgstr "Opening camera…"
+
+msgid "Abriendo puertas a otros mundos… con cuidado."
+msgstr "Opening doors to other worlds… carefully."
+
+msgid "Abrir exportación de Goodreads ↗"
+msgstr "Open Goodreads export ↗"
+
+msgid "Acceso"
+msgstr "Sign in"
+
+msgid "Acceso a Entrelíneas"
+msgstr "Sign in to Entrelíneas"
+
+msgid "Acción"
+msgstr "Action"
+
+msgid "Acerca el código al marco y evita los reflejos."
+msgstr "Move the barcode closer to the frame and avoid reflections."
+
+msgid "Activa Abrir como app, si aparece, y pulsa Añadir."
+msgstr "Enable Open as Web App, if shown, and tap Add."
+
+msgid "Activa JavaScript para buscar en las fuentes externas. Puedes importar con las coincidencias del catálogo local."
+msgstr "Enable JavaScript to search external sources. You can import using local catalog matches."
+
+msgid "Activa la cámara o elige una foto del código. No se suben imágenes al servidor."
+msgstr "Enable the camera or choose a barcode photo. Images are not uploaded."
+
+msgid "Activar cámara"
+msgstr "Enable camera"
+
+msgid "Actualizar lectura"
+msgstr "Update reading progress"
+
+msgid "Agradecemos el suspense, pero preferíamos los resultados."
+msgstr "We appreciate the suspense, but we’d rather have results."
+
+msgid "Ahora, traigamos tus historias"
+msgstr "Now, let’s bring your stories over"
+
+msgid "Algunas consultas han fallado. Se han buscado los demás libros; puedes conservar las coincidencias encontradas o volver a intentarlo."
+msgstr "Some searches failed. The other books have been searched; you can keep the matches found or try again."
+
+msgid "Algunas estanterías están tardando en abrir. Te mostramos lo que hemos encontrado; puedes volver a buscar más tarde."
+msgstr "Some shelves are taking a little longer to open. Here is what we found; you can search again later."
+
+msgid "Algunas historias llegan. Otras se vienen contigo."
+msgstr "Some stories arrive. Others come along with you."
+
+msgid "Algún día"
+msgstr "Someday"
+
+msgid "Alineando estrellas, letras y algún ISBN…"
+msgstr "Aligning stars, letters and the occasional ISBN…"
+
+msgid "Antes de pasar página…"
+msgstr "Before you turn the page…"
+
+msgid "Antes de que se te olvide…"
+msgstr "Before you forget…"
+
+msgid "Apariencia"
+msgstr "Appearance"
+
+msgid "Aplicación"
+msgstr "App"
+
+msgid "Apunta al código de barras"
+msgstr "Point at the barcode"
+
+msgid "Apunta al código que empieza por 978 o 979."
+msgstr "Aim at the barcode starting with 978 or 979."
+
+msgid "Aquí había una página. O eso dice el narrador."
+msgstr "There was a page here. Or so the narrator says."
+
+msgid "Aquí solo hay dragones y enlaces que no llevan a ninguna parte."
+msgstr "Here be dragons and links to nowhere."
+
+msgid "Aquí verás tus lecturas, tus ritmos y tus pequeños hitos."
+msgstr "See your books, your pace and your little milestones here."
+
+msgid "Archivo CSV"
+msgstr "CSV file"
+
+msgid "Archivo CSV de Goodreads"
+msgstr "Goodreads CSV file"
+
+msgid "Archivo de Entrelíneas"
+msgstr "Entrelíneas file"
+
+msgid "Archivo de Goodreads"
+msgstr "Goodreads file"
+
+msgid "Así vive tu biblioteca"
+msgstr "Your library at a glance"
+
+msgid "Automático"
+msgstr "Automatic"
+
+msgid "Automático sigue el tema de tu dispositivo."
+msgstr "Automatic follows your device theme."
+
+msgid "Autor"
+msgstr "Author"
+
+msgid "Autor coincidente"
+msgstr "Matching author"
+
+msgid "Autor no confirmado"
+msgstr "Author not confirmed"
+
+msgid "Autor normalizado idéntico"
+msgstr "Identical normalized author"
+
+msgid "Autor o autora"
+msgstr "Author"
+
+msgid "Avisos del archivo: %(issue_count)s"
+msgstr "File warnings: %(issue_count)s"
+
+msgid "Azul"
+msgstr "Blue"
+
+msgid "Añade Entrelíneas a la pantalla de inicio."
+msgstr "Add Entrelíneas to your home screen."
+
+msgid "Añade los libros que quieres comprar o recibir."
+msgstr "Add books you want to buy or receive."
+
+msgid "Añade tu archivo"
+msgstr "Add your file"
+
+msgid "Añade tu archivo de %(platform)s"
+msgstr "Add your %(platform)s file"
+
+msgid "Añade tu primer libro y haz de este rincón un reflejo de lo que lees, sientes y descubres."
+msgstr "Add your first book and make this space a reflection of what you read, feel and discover."
+
+msgid "Añade un libro o cambia los filtros."
+msgstr "Add a book or change the filters."
+
+msgid "Añade un libro para escribir tu primera reseña."
+msgstr "Add a book to write your first review."
+
+msgid "Añade un solo archivo cada vez."
+msgstr "Add one file at a time."
+
+msgid "Añadido a deseos."
+msgstr "Added to wishlist."
+
+msgid "Añadir a"
+msgstr "Add to"
+
+msgid "Añadir a Deseos"
+msgstr "Add to wishlist"
+
+msgid "Añadir a deseos"
+msgstr "Add to wishlist"
+
+msgid "Añadir libro"
+msgstr "Add book"
+
+msgid "Añadir manualmente"
+msgstr "Add manually"
+
+msgid "Añadir mi primer libro"
+msgstr "Add my first book"
+
+msgid "Añadir nota"
+msgstr "Add note"
+
+msgid "Añadir por ISBN"
+msgstr "Add by ISBN"
+
+msgid "Añadir portada"
+msgstr "Add cover"
+
+msgid "Añadir un libro"
+msgstr "Add a book"
+
+msgid "Aún no tienes reseñas."
+msgstr "You have no reviews yet."
+
+msgid "BNE no ha podido realizar esta consulta."
+msgstr "BNE could not process this query."
+
+msgid "Biblioteca"
+msgstr "Library"
+
+msgid "Boktyven aún no está activado: falta configurar su token de acceso."
+msgstr "Boktyven is not enabled: its access token needs configuring."
+
+msgid "Boktyven necesita un token de acceso configurado en el servidor."
+msgstr "Boktyven requires an access token configured on the server."
+
+msgid "BookBrainz se consulta por título y autor; su buscador documentado no ofrece un filtro ISBN."
+msgstr "BookBrainz supports title and author searches; its documented search has no ISBN filter."
+
+msgid "Borrador"
+msgstr "Draft"
+
+msgid "Borrador guardado."
+msgstr "Draft saved."
+
+msgid "Borradores"
+msgstr "Drafts"
+
+msgid "Busca por título, autor o ISBN."
+msgstr "Search by title, author or ISBN."
+
+msgid "Busca un libro o importa los que ya has leído."
+msgstr "Find a book or import the ones you have already read."
+
+msgid "Buscamos portadas y organizamos tus lecturas."
+msgstr "We’re finding covers and organising your reading history."
+
+msgid "Buscamos primero por ISBN y después por título y autor. Conservamos la edición encontrada; si no tiene portada, puede usar la de otra edición de la misma obra. Al repetir la importación también completamos las fichas que aún no están enlazadas."
+msgstr "We search by ISBN first, then by title and author. We keep the matched edition; if it has no cover, it can use one from another edition of the same work. Reimporting also completes records that are not yet linked."
+
+msgid "Buscando en los catálogos: %(done)s de %(total)s…"
+msgstr "Searching catalogs: %(done)s of %(total)s…"
+
+msgid "Buscando entre dragones y primeras ediciones…"
+msgstr "Searching among dragons and first editions…"
+
+msgid "Buscando tu próxima excusa para leer hasta tarde…"
+msgstr "Finding your next excuse to read past bedtime…"
+
+msgid "Buscando una historia con la que perder la noción del tiempo…"
+msgstr "Finding a story to lose track of time in…"
+
+msgid "Buscando…"
+msgstr "Searching…"
+
+msgid "Buscar"
+msgstr "Search"
+
+msgid "Buscar en catálogos"
+msgstr "Search catalogues"
+
+msgid "Buscar en mis libros"
+msgstr "Search my books"
+
+msgid "Buscar en mis libros…"
+msgstr "Search my books…"
+
+msgid "Buscar libros"
+msgstr "Search books"
+
+msgid "Buscar por"
+msgstr "Search by"
+
+msgid "Buscar un libro"
+msgstr "Find a book"
+
+msgid "Buscar y enlazar edición"
+msgstr "Find and link edition"
+
+msgid "Buscar y enlazar una edición del catálogo →"
+msgstr "Find and link a catalogue edition →"
+
+msgid "Búsqueda completada. Revisa las coincidencias antes de confirmar."
+msgstr "Search complete. Review the matches before confirming."
+
+msgid "CSV original de Goodreads · Máximo 5 MB y 5.000 libros. No hace falta abrirlo ni modificarlo."
+msgstr "Original Goodreads CSV · Up to 5 MB and 5,000 books. No need to open or edit it."
+
+msgid "Cada historia tiene sus pausas."
+msgstr "Every story has its pauses."
+
+msgid "Cada libro deja algo en ti. Este es tu recorrido."
+msgstr "Every book leaves a mark. This is your journey."
+
+msgid "Cada libro, a su lugar"
+msgstr "A place for every book"
+
+msgid "Cambiar"
+msgstr "Change"
+
+msgid "Cambiar contraseña"
+msgstr "Change password"
+
+msgid "Cambiar edición"
+msgstr "Change edition"
+
+msgid "Cambiar plataforma"
+msgstr "Change platform"
+
+msgid "Cancelar"
+msgstr "Cancel"
+
+msgid "Cargando…"
+msgstr "Loading…"
+
+msgid "Cargar más"
+msgstr "Load more"
+
+msgid "Catálogo y portada"
+msgstr "Catalog and cover"
+
+msgid "Cerrar aviso"
+msgstr "Dismiss notification"
+
+msgid "Cerrar cámara"
+msgstr "Close camera"
+
+msgid "Cerrar escáner"
+msgstr "Close scanner"
+
+msgid "Cerrar sesión"
+msgstr "Sign out"
+
+msgid "Claro"
+msgstr "Light"
+
+msgid "Coincidencia de autor"
+msgstr "Author match"
+
+msgid "Coincidencia de título"
+msgstr "Title match"
+
+msgid "Coincidencia por título y autor"
+msgstr "Matched by title and author"
+
+msgid "Compartir lista"
+msgstr "Share list"
+
+msgid "Completa este campo."
+msgstr "Complete this field."
+
+msgid "Comprobando que no se haya escapado a una secuela…"
+msgstr "Checking it has not escaped into a sequel…"
+
+msgid "Comprobar ISBN"
+msgstr "Check ISBN"
+
+msgid "Comprueba el ISBN y el idioma antes de añadirla."
+msgstr "Check the ISBN and language before adding it."
+
+msgid "Con el archivo listo, nos encargamos de organizar tus libros."
+msgstr "Once your file is ready, we’ll organise your books."
+
+msgid "Confiamos en que no se salte demasiadas paradas."
+msgstr "We hope it doesn’t miss too many stops."
+
+msgid "Confianza estimada"
+msgstr "Estimated confidence"
+
+msgid "Confirma que"
+msgstr "Confirm that"
+
+msgid "Confirmar email"
+msgstr "Confirm email"
+
+msgid "Confirmar importación"
+msgstr "Confirm import"
+
+msgid "Confirmar mi email"
+msgstr "Confirm my email"
+
+msgid "Conservamos los valores de la edición seleccionada."
+msgstr "We keep the selected edition’s values."
+
+msgid "Conservaremos tus lecturas y reseñas existentes. Las fichas ya importadas podrán completarse con datos del catálogo, sin duplicarlas."
+msgstr "We’ll keep your existing readings and reviews. Previously imported records can be completed with catalog data without creating duplicates."
+
+msgid "Conservarlo"
+msgstr "Keep it"
+
+msgid "Consultando al consejo de lectores nocturnos…"
+msgstr "Consulting the council of late-night readers…"
+
+msgid "Consultando el índice del universo lector…"
+msgstr "Checking the index of the reading universe…"
+
+msgid "Consultando los catálogos…"
+msgstr "Searching the catalogues…"
+
+msgid "Contiene spoilers"
+msgstr "Contains spoilers"
+
+msgid "Continuar"
+msgstr "Continue"
+
+msgid "Contraseña actualizada"
+msgstr "Password updated"
+
+msgid "Contraseña actualizada."
+msgstr "Password updated."
+
+msgid "Contraseña guardada."
+msgstr "Password saved."
+
+msgid "Convenciendo a los libros de que se ordenen solos…"
+msgstr "Persuading the books to shelve themselves…"
+
+msgid "Conéctate para consultar tus libros y guardar cambios."
+msgstr "Connect to view your books and save changes."
+
+msgid "Copiar"
+msgstr "Copy"
+
+msgid "Crear cuenta"
+msgstr "Create account"
+
+msgid "Crear enlace para compartir"
+msgstr "Create sharing link"
+
+msgid "Crear una cuenta"
+msgstr "Create an account"
+
+msgid "Creemos que alguien ha metido un tomo de mil páginas."
+msgstr "We think someone tried feeding it a thousand-page volume."
+
+msgid "Criterios de agrupación"
+msgstr "Grouping criteria"
+
+msgid "Cualquiera con el enlace verá esta lista. Tus reseñas, notas y email seguirán siendo privados."
+msgstr "Anyone with the link can view this list. Your reviews, notes and email stay private."
+
+msgid "Cámara activa"
+msgstr "Camera active"
+
+msgid "Código leído"
+msgstr "Barcode read"
+
+msgid "Código leído, pero no es un ISBN. Apunta al código 978 o 979 de la contraportada."
+msgstr "Code read, but it is not an ISBN. Scan the 978 or 979 code on the back cover."
+
+msgid "Datos de la edición (opcional)"
+msgstr "Edition details (optional)"
+
+msgid "Datos de lectura y portada"
+msgstr "Reading details and cover"
+
+msgid "Datos del libro"
+msgstr "Book details"
+
+msgid "De 0,5 a 5 estrellas. Puedes usar decimales, por ejemplo 3,5 o 4,25."
+msgstr "From 0.5 to 5 stars. You can use decimals, such as 3.5 or 4.25."
+
+msgid "De Goodreads o de otro archivo de Entrelíneas a tu rincón lector."
+msgstr "From Goodreads or another Entrelíneas file to your reading corner."
+
+msgid "De aquí para allá"
+msgstr "From here to there"
+
+msgid "De libros terminados con páginas registradas"
+msgstr "From finished books with recorded page counts"
+
+msgid "De los que no estaban ni en el borrador."
+msgstr "The kind that wasn’t even in the first draft."
+
+msgid "De tus reseñas guardadas, sin borradores"
+msgstr "From your saved reviews, excluding drafts"
+
+msgid "Desactivar enlace"
+msgstr "Disable link"
+
+msgid "Descarga tus lecturas"
+msgstr "Download your reading history"
+
+msgid "Descubre tu lado lector"
+msgstr "Discover your reading self"
+
+msgid "Desempolvando estanterías imaginarias…"
+msgstr "Dusting off imaginary shelves…"
+
+msgid "Desenredando títulos con nombres larguísimos…"
+msgstr "Untangling extraordinarily long titles…"
+
+msgid "Deseo eliminado."
+msgstr "Wishlist item deleted."
+
+msgid "Deseo existente; conservar sus datos"
+msgstr "Existing wish; keep its data"
+
+msgid "Deseo guardado."
+msgstr "Wishlist item saved."
+
+msgid "Deseos"
+msgstr "Wishlist"
+
+msgid "Deseos añadidos"
+msgstr "Wishes added"
+
+msgid "Deseos añadidos: %(wishes)s."
+msgstr "Wishes added: %(wishes)s."
+
+msgid "Destino no válido"
+msgstr "Invalid destination"
+
+msgid "Ediciones de"
+msgstr "Editions of"
+
+msgid "Edición actualizada."
+msgstr "Edition updated."
+
+msgid "Edición añadida."
+msgstr "Edition added."
+
+msgid "Edición encontrada por ISBN"
+msgstr "Edition matched by ISBN"
+
+msgid "Edición enlazada. Tu reseña, tus notas y tu progreso se conservan."
+msgstr "Edition linked. Your review, notes and progress are kept."
+
+msgid "Edición y portada"
+msgstr "Edition and cover"
+
+msgid "Edición:"
+msgstr "Edition:"
+
+msgid "Editar"
+msgstr "Edit"
+
+msgid "Editar deseo"
+msgstr "Edit wishlist item"
+
+msgid "Editar libro"
+msgstr "Edit book"
+
+msgid "Editar reseña"
+msgstr "Edit review"
+
+msgid "Editorial"
+msgstr "Publisher"
+
+msgid "El CSV contiene filas incompletas. Vuelve a descargar el archivo original."
+msgstr "The CSV contains incomplete rows. Download the original file again."
+
+msgid "El ISBN de la fuente ha cambiado. Vuelve a buscar la edición."
+msgstr "The source’s ISBN has changed. Search for the edition again."
+
+msgid "El ISBN no coincide con esta edición. Prueba otro resultado."
+msgstr "The ISBN does not match this edition. Try another result."
+
+msgid "El archivo debe ser el CSV original de Goodreads, con codificación UTF-8."
+msgstr "Use the original Goodreads CSV file with UTF-8 encoding."
+
+msgid "El archivo está vacío. Prueba con otra exportación."
+msgstr "The file is empty. Try another export."
+
+msgid "El archivo incluye tus lecturas, reseñas, notas personales y deseos, con sus fechas y valoraciones decimales."
+msgstr "The file includes your readings, reviews, personal notes and wishes, with dates and decimal ratings."
+
+msgid "El archivo supera el límite de 5 MB."
+msgstr "The file exceeds the 5 MB limit."
+
+msgid "El bibliotecario dijo «solo una página más». Ya sabes cómo acaba eso."
+msgstr "The librarian said “just one more page”. You know how that ends."
+
+msgid "El bibliotecario ha invocado un error ancestral."
+msgstr "The librarian has summoned an ancient error."
+
+msgid "El catálogo está pasando de capítulo…"
+msgstr "The catalogue is starting a new chapter…"
+
+msgid "El catálogo está recibiendo muchas consultas. Prueba dentro de un momento."
+msgstr "The catalogue is receiving many requests. Try again shortly."
+
+msgid "El catálogo no está disponible ahora. Puedes añadir el libro manualmente."
+msgstr "The catalogue is unavailable. You can add the book manually."
+
+msgid "El email es obligatorio."
+msgstr "Email is required."
+
+msgid "El formulario ha caducado. Vuelve a comprobar el ISBN."
+msgstr "The form has expired. Check the ISBN again."
+
+msgid "El identificador de obra tiene datos contradictorios. Revisa la edición."
+msgstr "The work identifier has conflicting details. Check the edition."
+
+msgid "El identificador del archivo no coincide con el tipo de registro."
+msgstr "The file identifier does not match the record type."
+
+msgid "El mensajero ha perdido la dirección de la biblioteca."
+msgstr "The messenger lost the library’s address."
+
+msgid "El narrador ha perdido el hilo."
+msgstr "The narrator has lost the plot."
+
+msgid "El punto y seguido ha decidido ser punto final."
+msgstr "The full stop has decided the story is over."
+
+msgid "El recorte es demasiado pequeño o estrecho. Revisa las esquinas."
+msgstr "The crop is too small or narrow. Check the corners."
+
+msgid "El resultado ha caducado. Vuelve a buscar el libro."
+msgstr "The result has expired. Search for the book again."
+
+msgid "El servidor ha salido a por otro libro."
+msgstr "The server went out to get another book."
+
+msgid "El suspense estaba bien. Esto ya era demasiado."
+msgstr "Suspense was fine. This was a bit much."
+
+msgid "El índice prometía más de lo que podía dar."
+msgstr "The contents page promised more than it could deliver."
+
+msgid "Elegir archivo"
+msgstr "Choose file"
+
+msgid "Elegir mi próxima lectura"
+msgstr "Choose my next read"
+
+msgid "Elegir otro camino"
+msgstr "Choose another path"
+
+msgid "Elegir un libro"
+msgstr "Choose a book"
+
+msgid "Elige Instalar aplicación o Añadir a la pantalla de inicio."
+msgstr "Choose Install app or Add to home screen."
+
+msgid "Elige cómo quieres ver Entrelíneas."
+msgstr "Choose how Entrelíneas looks."
+
+msgid "Elige el origen y sube tu CSV"
+msgstr "Choose the source and upload your CSV"
+
+msgid "Elige el próximo destino"
+msgstr "Choose the next destination"
+
+msgid "Elige tu edición"
+msgstr "Choose your edition"
+
+msgid "Elige un archivo CSV exportado desde la plataforma que has seleccionado."
+msgstr "Choose a CSV file exported from your selected platform."
+
+msgid "Elige un libro de tu biblioteca y guarda lo que te hizo sentir."
+msgstr "Choose a book from your library and save how it made you feel."
+
+msgid "Elige un libro y marca su estado como «Leyendo»."
+msgstr "Choose a book and mark it as currently reading."
+
+msgid "Elige una edición antes de añadir el libro."
+msgstr "Choose an edition before adding the book."
+
+msgid "Elige una edición para «"
+msgstr "Choose an edition for “"
+
+msgid "Elige una foto del código de barras."
+msgstr "Choose a photo of the barcode."
+
+msgid "Elige una imagen de menos de 12 MB."
+msgstr "Choose an image smaller than 12 MB."
+
+msgid "Elige una plataforma. Te acompañamos con el resto."
+msgstr "Choose a platform. We’ll guide you through the rest."
+
+msgid "Elige una portada legible en JPG, PNG o WebP, de al menos 80 píxeles por lado."
+msgstr "Choose a clear JPG, PNG or WebP cover, at least 80 pixels on each side."
+
+msgid "Eliminar"
+msgstr "Delete"
+
+msgid "Eliminar libro"
+msgstr "Delete book"
+
+msgid "Eliminar libro de mi biblioteca"
+msgstr "Remove book from my library"
+
+msgid "Eliminar nota"
+msgstr "Delete note"
+
+msgid "Email de acceso"
+msgstr "Sign-in email"
+
+msgid "Email principal actualizado."
+msgstr "Primary email updated."
+
+msgid "Email verificado"
+msgstr "Email verified"
+
+msgid "Email verificado."
+msgstr "Email verified."
+
+msgid "En español"
+msgstr "In Spanish"
+
+msgid "En tu biblioteca"
+msgstr "In your library"
+
+msgid "En tu móvil, abre"
+msgstr "On your phone, open"
+
+msgid "En «Mover mis libros», elige «Llevarme mi biblioteca» y descarga tu archivo CSV."
+msgstr "In “Move my books”, choose “Take my library with me” and download your CSV file."
+
+msgid "Encuadra el código de barras de la contraportada."
+msgstr "Place the back-cover barcode inside the frame."
+
+msgid "Encuentra tu próxima lectura"
+msgstr "Find your next read"
+
+msgid "Enlace activado. Cualquier persona que lo reciba podrá ver los libros de esta lista."
+msgstr "Link enabled. Anyone receiving it can view the books in this list."
+
+msgid "Enlace activo"
+msgstr "Link active"
+
+msgid "Enlace copiado."
+msgstr "Link copied."
+
+msgid "Enlace copiado. Listo para compartir."
+msgstr "Link copied. Ready to share."
+
+msgid "Enlace de tu lista"
+msgstr "Your list’s link"
+
+msgid "Enlace desactivado. El enlace anterior ya no funciona."
+msgstr "Link disabled. The previous link no longer works."
+
+msgid "Enlace para compartir activado."
+msgstr "Sharing link enabled."
+
+msgid "Enlace para compartir desactivado."
+msgstr "Sharing link disabled."
+
+msgid "Enlaza primero una edición para añadir su portada."
+msgstr "Link an edition before adding its cover."
+
+msgid "Enlazar con «"
+msgstr "Link to “"
+
+msgid "Enlazar esta edición"
+msgstr "Link this edition"
+
+msgid "Entra con tu cuenta existente."
+msgstr "Sign in with your existing account."
+
+msgid "Entra en My Books → Import and export, en la sección Tools del menú lateral."
+msgstr "Go to My Books → Import and export under Tools in the sidebar."
+
+msgid "Entrar"
+msgstr "Sign in"
+
+msgid "Entrar a mi espacio"
+msgstr "Sign in"
+
+msgid "Entre líneas, tu mirada"
+msgstr "Between the lines, your take"
+
+msgid "Entre tus páginas"
+msgstr "Between your pages"
+
+msgid "Entrelíneas no está disponible en este momento. Intenta entrar de nuevo más tarde."
+msgstr "Entrelíneas is currently unavailable. Try coming back later."
+
+msgid "Entrelíneas · Administración"
+msgstr "Entrelíneas · Administration"
+
+msgid "Entrelíneas, inicio"
+msgstr "Entrelíneas, home"
+
+msgid "Entrelíneas: tu biblioteca, tus reseñas y todo lo que te deja un libro."
+msgstr "Entrelíneas: your library, your reviews and everything a book leaves with you."
+
+msgid "Enviar instrucciones"
+msgstr "Send instructions"
+
+msgid "Es una copia: tu biblioteca se queda aquí tal como está."
+msgstr "It’s a copy: your library stays here just as it is."
+
+msgid "Es una obra diferente"
+msgstr "It is a different work"
+
+msgid "Escanear código"
+msgstr "Scan barcode"
+
+msgid "Escanear un libro"
+msgstr "Scan a book"
+
+msgid "Escaneo en pausa"
+msgstr "Scanning paused"
+
+msgid "Escribe al menos %(limit)s caracteres."
+msgstr "Enter at least %(limit)s characters."
+
+msgid "Escribe al menos una idea o guarda la reseña como borrador."
+msgstr "Write at least one thought or save the review as a draft."
+
+msgid "Escribe entre 2 y 160 caracteres para buscar."
+msgstr "Enter between 2 and 160 characters to search."
+
+msgid "Escribe tu email. Si hay una cuenta asociada, recibirás las instrucciones para recuperarla."
+msgstr "Enter your email. If it is linked to an account, you will receive reset instructions."
+
+msgid "Escribe una reseña, ponle estrellas y marca tus favoritos."
+msgstr "Write a review, give it stars and mark your favorites."
+
+msgid "Escribir ISBN"
+msgstr "Enter ISBN"
+
+msgid "Escribir reseña"
+msgstr "Write a review"
+
+msgid "Ese ISBN no es válido. Revisa los números del código de barras."
+msgstr "That ISBN is invalid. Check the barcode digits."
+
+msgid "Ese código no es un ISBN de libro. Busca el código que empieza por 978 o 979."
+msgstr "That code is not a book ISBN. Look for a code starting with 978 or 979."
+
+msgid "Esta acción es permanente."
+msgstr "This action is permanent."
+
+msgid "Esta edición"
+msgstr "This edition"
+
+msgid "Esta edición ya estaba en tu biblioteca."
+msgstr "This edition was already in your library."
+
+msgid "Esta edición ya estaba en tus deseos."
+msgstr "This edition was already on your wishlist."
+
+msgid "Esta edición ya está en tu biblioteca."
+msgstr "This edition is already in your library."
+
+msgid "Esta edición ya está en tus deseos."
+msgstr "This edition is already on your wishlist."
+
+msgid "Esta edición ya existe"
+msgstr "This edition already exists"
+
+msgid "Esta edición ya no está disponible. Prueba otro resultado o añádela manualmente."
+msgstr "This edition is no longer available. Try another result or add it manually."
+
+msgid "Esta edición ya tiene una foto de portada."
+msgstr "This edition already has a cover photo."
+
+msgid "Esta historia tiene una página arrancada."
+msgstr "This story has a page torn out."
+
+msgid "Esta lista está vacía."
+msgstr "This list is empty."
+
+msgid "Esta página está en otra estantería."
+msgstr "This page is on another shelf."
+
+msgid "Esta reseña contiene spoilers. Mostrar mi reseña."
+msgstr "This review contains spoilers. Show my review."
+
+msgid "Esta reseña contiene spoilers. Ábrela para leerla."
+msgstr "This review contains spoilers. Open it to read."
+
+msgid "Esta reseña pertenece a la obra y se muestra en todas sus ediciones."
+msgstr "This review belongs to the work and appears in all its editions."
+
+msgid "Estado"
+msgstr "Status"
+
+msgid "Estado de lectura"
+msgstr "Reading status"
+
+msgid "Estamos abriendo tu biblioteca…"
+msgstr "We’re opening your library…"
+
+msgid "Estamos buscando un ovillo entre las notas al pie."
+msgstr "We’re looking for a ball of yarn in the footnotes."
+
+msgid "Estamos cambiando la cinta de la máquina."
+msgstr "We’re changing the typewriter ribbon."
+
+msgid "Estamos negociando una segunda edición."
+msgstr "We’re negotiating a second edition."
+
+msgid "Estamos preparando el archivo con tus libros y recuerdos lectores."
+msgstr "We’re preparing the file with your books and reading memories."
+
+msgid "Este capítulo se lo ha comido el perro."
+msgstr "The dog ate this chapter."
+
+msgid "Este catálogo tiene más pasillos de los que parecía."
+msgstr "This catalogue has more aisles than we thought."
+
+msgid "Este enlace ya no es válido."
+msgstr "This link is no longer valid."
+
+msgid "Este giro de guion necesita una revisión."
+msgstr "This plot twist needs an edit."
+
+msgid "Este libro aún no tiene reseña."
+msgstr "This book has no review yet."
+
+msgid "Estimación automática basada en identificadores, título y autor. No es una probabilidad estadística. Cada edición conserva su ISBN y sus datos."
+msgstr "Automatic estimate based on identifiers, title and author. This is not a statistical probability. Each edition keeps its own ISBN and details."
+
+msgid "Estás usando Entrelíneas como aplicación."
+msgstr "You are using Entrelíneas as an app."
+
+msgid "Existente; completar datos que falten"
+msgstr "Existing; fill missing data"
+
+msgid "Explorar mis lecturas"
+msgstr "Explore my reads"
+
+msgid "Exportar CSV"
+msgstr "Export CSV"
+
+msgid "Falta confirmar el autor"
+msgstr "Author confirmation needed"
+
+msgid "Favoritas"
+msgstr "Favourites"
+
+msgid "Ficha aportada por un usuario, pendiente de verificación."
+msgstr "User-contributed record, awaiting verification."
+
+msgid "Ficha con más datos"
+msgstr "More complete record"
+
+msgid "Ficha conservada de tu biblioteca. Elige su edición en los catálogos para completar ISBN, portada y editorial."
+msgstr "Saved library record. Select a catalogue edition to add its ISBN, cover and publisher."
+
+msgid "Fichas enlazadas al catálogo: %(linked)s."
+msgstr "Records linked to the catalog: %(linked)s."
+
+msgid "Fila %(row)s: contiene datos inválidos. No se ha importado ningún dato."
+msgstr "Row %(row)s: contains invalid data. No data was imported."
+
+msgid "Fila %(row)s: estantería desconocida; se importa como Pendiente."
+msgstr "Row %(row)s: unknown shelf; imported as Pending."
+
+msgid "Fila %(row)s: fecha de fin inválida; se importa sin esa fecha."
+msgstr "Row %(row)s: invalid finish date; imported without that date."
+
+msgid "Fila %(row)s: identificador repetido; se omite."
+msgstr "Row %(row)s: duplicate identifier; skipped."
+
+msgid "Fila %(row)s: título, autor o identificador ausente o demasiado largo; se omite."
+msgstr "Row %(row)s: title, author or identifier missing or too long; skipped."
+
+msgid "Fila %(row)s: valoración inválida; se omite el libro."
+msgstr "Row %(row)s: invalid rating; book skipped."
+
+msgid "Filtrar reseñas"
+msgstr "Filter reviews"
+
+msgid "Foto de portada"
+msgstr "Cover photo"
+
+msgid "Fuente no válida."
+msgstr "Invalid source."
+
+msgid "Fuentes"
+msgstr "Sources"
+
+msgid "Fuentes y diferencias"
+msgstr "Sources and differences"
+
+msgid "Gestionar"
+msgstr "Manage"
+
+msgid "Gestionar email"
+msgstr "Manage email"
+
+msgid "Giro de portada no válido."
+msgstr "Invalid cover rotation."
+
+msgid "Guarda lo que te dejó"
+msgstr "Save what stayed with you"
+
+msgid "Guarda lo que te dejó tu última lectura."
+msgstr "Keep what your last read left with you."
+
+msgid "Guarda los que te llaman"
+msgstr "Save the books that catch your eye"
+
+msgid "Guardar borrador"
+msgstr "Save draft"
+
+msgid "Guardar cambios"
+msgstr "Save changes"
+
+msgid "Guardar contraseña"
+msgstr "Save password"
+
+msgid "Guardar deseo"
+msgstr "Save wishlist item"
+
+msgid "Guardar libro"
+msgstr "Save book"
+
+msgid "Guardar nota"
+msgstr "Save note"
+
+msgid "Guardar portada"
+msgstr "Save cover"
+
+msgid "Guardar reseña"
+msgstr "Save review"
+
+msgid "Haciendo sitio en tu mesita de noche… mentalmente."
+msgstr "Making room on your nightstand… in our minds."
+
+msgid "Hagamos sitio a tus historias."
+msgstr "Make room for your stories."
+
+msgid "Has encontrado el capítulo invisible."
+msgstr "You’ve found the invisible chapter."
+
+msgid "Has llegado al final."
+msgstr "You've reached the end."
+
+msgid "Hasta 5.000 libros"
+msgstr "Up to 5,000 books"
+
+msgid "Hasta las mejores historias tienen un giro inesperado."
+msgstr "Even the best stories have an unexpected twist."
+
+msgid "Hasta los superventas pasan por corrección de pruebas."
+msgstr "Even bestsellers need proofreading."
+
+msgid "Hay diferencias entre las fuentes"
+msgstr "Sources contain differences"
+
+msgid "Hay libros que dejan huella"
+msgstr "Some books leave a mark"
+
+msgid "Hay obras similares. Elige si esta edición pertenece a una de ellas."
+msgstr "There are similar works. Choose whether this edition belongs to one of them."
+
+msgid "Hay otra búsqueda en curso. Vuelve a intentarlo en unos segundos."
+msgstr "Another search is in progress. Try again in a few seconds."
+
+msgid "Hazlo desde un ordenador. En el móvil, activa la vista de escritorio del navegador si no aparece la opción."
+msgstr "Use a computer. On mobile, enable the browser’s desktop view if the option is missing."
+
+msgid "Historias que te acompañan"
+msgstr "Stories by your side"
+
+msgid "Hola,"
+msgstr "Hello,"
+
+msgid "Hoy la biblioteca abre por la siguiente página."
+msgstr "Today the library opens on the next page."
+
+msgid "ISBN"
+msgstr "ISBN"
+
+msgid "ISBN con datos contradictorios"
+msgstr "ISBN with conflicting metadata"
+
+msgid "ISBN detectado: "
+msgstr "ISBN detected: "
+
+msgid "ISBN exacto"
+msgstr "Exact ISBN"
+
+msgid "ISBN, fechas y portada"
+msgstr "ISBN, dates and cover"
+
+msgid "ISBN:"
+msgstr "ISBN:"
+
+msgid "Identificador de obra coincidente"
+msgstr "Matching work identifier"
+
+msgid "Idioma"
+msgstr "Language"
+
+msgid "Idioma preferido"
+msgstr "Preferred language"
+
+msgid "Importación completada"
+msgstr "Import complete"
+
+msgid "Importando…"
+msgstr "Importing…"
+
+msgid "Importar"
+msgstr "Import"
+
+msgid "Importar de Goodreads"
+msgstr "Import from Goodreads"
+
+msgid "Importar mi biblioteca"
+msgstr "Import my library"
+
+msgid "Importar otro archivo"
+msgstr "Import another file"
+
+msgid "Importar tu biblioteca"
+msgstr "Import your library"
+
+msgid "Importaremos tus lecturas y reseñas y buscaremos portadas y metadatos en los catálogos. Las estanterías personalizadas y el historial de relecturas no se importan."
+msgstr "We’ll import your readings and reviews and search catalogs for covers and metadata. Custom shelves and rereading history are not imported."
+
+msgid "Importaremos títulos, autores, ISBN, páginas, estados de lectura, fechas de fin, estrellas y reseñas. Las estanterías personalizadas, portadas y el historial de relecturas no se importan."
+msgstr "We’ll import titles, authors, ISBNs, page counts, reading statuses, finish dates, stars and reviews. Custom shelves, covers and rereading history are not imported."
+
+msgid "Incluye tus borradores"
+msgstr "Includes your drafts"
+
+msgid "Información de la importación"
+msgstr "Import information"
+
+msgid "Iniciar sesión"
+msgstr "Sign in"
+
+msgid "Inicio"
+msgstr "Home"
+
+msgid "Inicio:"
+msgstr "Started:"
+
+msgid "Instalar Entrelíneas"
+msgstr "Install Entrelíneas"
+
+msgid "Instalar aplicación"
+msgstr "Install app"
+
+msgid "Intentando no distraernos con la contraportada…"
+msgstr "Trying not to get distracted by the blurb…"
+
+msgid "Introduce un ISBN válido de 10 o 13 caracteres."
+msgstr "Enter a valid 10- or 13-character ISBN."
+
+msgid "Introduce un email válido."
+msgstr "Enter a valid email address."
+
+msgid "Introduce un número válido."
+msgstr "Enter a valid number."
+
+msgid "Introduce un valor igual o inferior a %(limit)s."
+msgstr "Enter a value of %(limit)s or lower."
+
+msgid "Introduce un valor igual o superior a %(limit)s."
+msgstr "Enter a value of %(limit)s or higher."
+
+msgid "Introduce una dirección web válida."
+msgstr "Enter a valid web address."
+
+msgid "Ir a mis reseñas"
+msgstr "Go to my reviews"
+
+msgid "Ir al contenido"
+msgstr "Skip to content"
+
+msgid "JPG, PNG o WebP · Máximo 4 MB"
+msgstr "JPG, PNG or WebP · Maximum 4 MB"
+
+msgid "La biblioteca está entre capítulos."
+msgstr "The library is between chapters."
+
+msgid "La búsqueda ha hecho una pausa dramática."
+msgstr "The search is taking a dramatic pause."
+
+msgid "La búsqueda sigue en curso. Vuelve a subir el CSV si la página no responde."
+msgstr "The search is still running. Upload the CSV again if the page stops responding."
+
+msgid "La conexión ha perdido el marcapáginas."
+msgstr "The connection has lost its bookmark."
+
+msgid "La conexión se ha quedado leyendo en el tren."
+msgstr "The connection got caught up reading on the train."
+
+msgid "La consulta se ha quedado sin marcapáginas."
+msgstr "The search has lost its bookmark."
+
+msgid "La cámara necesita HTTPS o localhost. Puedes elegir una foto o escribir el ISBN."
+msgstr "The camera requires HTTPS or localhost. Choose a photo or type the ISBN instead."
+
+msgid "La cámara se ha desconectado. Puedes volver a intentarlo."
+msgstr "The camera disconnected. You can try again."
+
+msgid "La descarga ha comenzado. Guarda el archivo donde prefieras y vuelve a traerlo cuando quieras."
+msgstr "Your download has started. Save the file wherever you like and bring it back whenever you want."
+
+msgid "La edición tiene menos páginas que tu progreso actual. Revisa primero tu página de lectura; tus datos no han cambiado."
+msgstr "This edition has fewer pages than your current progress. Check your reading page first; your data has not changed."
+
+msgid "La edición ya no está disponible en esta fuente."
+msgstr "This edition is no longer available from this source."
+
+msgid "La edición ya no está disponible. Vuelve a buscarla."
+msgstr "The edition is no longer available. Search again."
+
+msgid "La fecha final debe ser posterior al inicio."
+msgstr "The finish date must not be before the start."
+
+msgid "La foto se usará en esta edición para todos los lectores."
+msgstr "The photo will be used for this edition for all readers."
+
+msgid "La fuente ha cambiado el ISBN. No hemos modificado la edición guardada."
+msgstr "The source changed the ISBN. Your saved edition has not been modified."
+
+msgid "La imagen se procesa en tu dispositivo."
+msgstr "The image is processed on your device."
+
+msgid "La inspiración sigue aquí. La conexión se ha tomado un descanso."
+msgstr "The inspiration is still here. The connection is taking a break."
+
+msgid "La máquina de escribir se ha atascado."
+msgstr "The typewriter has jammed."
+
+msgid "La ordenamos por colores y ahora nadie encuentra nada."
+msgstr "We sorted by colour and now nobody can find anything."
+
+msgid "La portada debe ocupar menos de 4 MB."
+msgstr "The cover must be smaller than 4 MB."
+
+msgid "La próxima búsqueda quizá tenga un argumento más convincente."
+msgstr "Perhaps the next search will have a more convincing plot."
+
+msgid "La próxima vez leerá las instrucciones antes del conjuro."
+msgstr "Next time they’ll read the instructions before the spell."
+
+msgid "La página actual no puede superar el total."
+msgstr "The current page cannot exceed the total."
+
+msgid "La página se ha fugado con el marcapáginas."
+msgstr "The page ran away with the bookmark."
+
+msgid "La página supera el total del libro."
+msgstr "The page exceeds the book’s page count."
+
+msgid "La referencia del libro no es válida. Vuelve a buscarlo."
+msgstr "The book reference is invalid. Search for it again."
+
+msgid "La respuesta del catálogo es demasiado grande. Prueba una búsqueda más concreta."
+msgstr "The catalogue response is too large. Try a more specific search."
+
+msgid "La trama acaba de dar un giro inesperado."
+msgstr "The plot just took an unexpected turn."
+
+msgid "La vista previa ha caducado o ya se ha importado. Vuelve a subir el CSV."
+msgstr "The preview has expired or was already imported. Upload the CSV again."
+
+msgid "Las coincidencias han cambiado. Vuelve a comprobar los datos."
+msgstr "The matches have changed. Check the details again."
+
+msgid "Las fotos de portada no se incluyen en el CSV. Se conservan los enlaces externos de portada."
+msgstr "Cover photos are not included in the CSV. External cover links are kept."
+
+msgid "Las fuentes no coinciden con la edición guardada. Selecciona el resultado por separado."
+msgstr "The sources do not match the saved edition. Select the result separately."
+
+msgid "Le dijimos que no empezara una trilogía."
+msgstr "We told it not to start a trilogy."
+
+msgid "Le habíamos pedido una comedia ligera."
+msgstr "We’d asked for a light comedy."
+
+msgid "Lectura actual"
+msgstr "Currently reading"
+
+msgid "Lecturas y biblioteca"
+msgstr "Reading and library"
+
+msgid "Lee el código ISBN de la contraportada. La imagen se procesa en tu dispositivo."
+msgstr "Scan the ISBN on the back cover. The image is processed on your device."
+
+msgid "Leer mi reseña de"
+msgstr "Read my review of"
+
+msgid "Leer una foto del código"
+msgstr "Read barcode from photo"
+
+msgid "Les hemos pedido que vuelvan antes del siguiente capítulo."
+msgstr "We asked them to be back before the next chapter."
+
+msgid "Leyendo"
+msgstr "Reading"
+
+msgid "Leyendo ahora"
+msgstr "Currently reading"
+
+msgid "Leyendo el archivo y preparando tus lecturas para que puedas revisarlas."
+msgstr "Reading your file and preparing your books for review."
+
+msgid "Leyendo el código en tu dispositivo…"
+msgstr "Reading the code on your device…"
+
+msgid "Leyendo la foto…"
+msgstr "Reading photo…"
+
+msgid "Leyendo los lomos sin torcer demasiado el cuello…"
+msgstr "Reading the spines without twisting our necks…"
+
+msgid "Leídos este año"
+msgstr "Read this year"
+
+msgid "Libro"
+msgstr "Book"
+
+msgid "Libro añadido a tu biblioteca."
+msgstr "Book added to your library."
+
+msgid "Libro añadido a tus deseos."
+msgstr "Book added to your wishlist."
+
+msgid "Libro añadido."
+msgstr "Book added."
+
+msgid "Libro eliminado de tu lista de deseos."
+msgstr "Book removed from your wishlist."
+
+msgid "Libro eliminado."
+msgstr "Book deleted."
+
+msgid "Libro existente; conservar sus datos"
+msgstr "Existing book; keep its data"
+
+msgid "Libro guardado en tu biblioteca."
+msgstr "Book saved to your library."
+
+msgid "Libro guardado en tu lista de deseos."
+msgstr "Book saved to your wishlist."
+
+msgid "Libro guardado."
+msgstr "Book saved."
+
+msgid "Libro no encontrado"
+msgstr "Book not found"
+
+msgid "Libro, reseña y notas eliminados de tu biblioteca."
+msgstr "Book, review and notes removed from your library."
+
+msgid "Libros añadidos"
+msgstr "Books added"
+
+msgid "Libros añadidos: %(books)s · Reseñas o valoraciones añadidas: %(reviews)s."
+msgstr "Books added: %(books)s · Reviews or ratings added: %(reviews)s."
+
+msgid "Libros del autor"
+msgstr "Books by this author"
+
+msgid "Libros terminados cada mes"
+msgstr "Books finished each month"
+
+msgid "Libros terminados sin fecha: añade la fecha de fin para incluirlos en el gráfico y el total anual."
+msgstr "Finished books without a date: add a finish date to include them in the chart and yearly total."
+
+msgid "Libros válidos: %(total)s · Con reseña o valoración: %(review_count)s."
+msgstr "Valid books: %(total)s · With a review or rating: %(review_count)s."
+
+msgid "Lista de deseos"
+msgstr "Wishlist"
+
+msgid "Lista de deseos de"
+msgstr "Wishlist of"
+
+msgid "Listo para importar"
+msgstr "Ready to import"
+
+msgid "Listos para el viaje"
+msgstr "Ready for the journey"
+
+msgid "Llevaban tiempo haciendo planes entre líneas."
+msgstr "They’d been making plans between the lines for a while."
+
+msgid "Llevarme mi biblioteca"
+msgstr "Take my library with me"
+
+msgid "Lo mejor"
+msgstr "Highlights"
+
+msgid "Lo mejorable"
+msgstr "Room for improvement"
+
+msgid "Lo que lees, lo que se queda."
+msgstr "What you read. What stays."
+
+msgid "Los catálogos se han ido al club de lectura."
+msgstr "The catalogues went to book club."
+
+msgid "Los leídos, los que estás leyendo y los que tienen reseña, estrellas o fecha de fin van a Biblioteca. Los marcados como to-read sin esos datos van a Deseos."
+msgstr "Read books, current reads and books with a review, stars or finish date go to your library. Books marked to-read without that data go to your wishlist."
+
+msgid "Los libros existentes conservarán sus datos. Solo añadiremos reseñas cuando todavía no tengas una para ese libro u obra. Los registros ya importados se omitirán."
+msgstr "Existing books will keep their data. We’ll only add a review if you don’t already have one for that book or work. Previously imported records will be skipped."
+
+msgid "Los libros no se han ido. La conexión, un poco."
+msgstr "The books haven’t gone anywhere. The connection has, a little."
+
+msgid "Los libros terminan. Lo que te dejan, se queda."
+msgstr "Books end. What they leave with you stays."
+
+msgid "Los puntos suspensivos también necesitan protagonismo…"
+msgstr "Ellipses deserve their moment in the spotlight too…"
+
+msgid "Los que se quedan contigo"
+msgstr "The ones that stay with you"
+
+msgid "Marca esta casilla para continuar."
+msgstr "Select this checkbox to continue."
+
+msgid "Marca las cuatro esquinas de la portada sin cruzar los bordes."
+msgstr "Mark the four corners of the cover without crossing the edges."
+
+msgid "Marca un libro como «Leyendo» y retómalo desde aquí."
+msgstr "Mark a book as “Reading” and pick it up here."
+
+msgid "Marca una reseña guardada como favorita y su libro tendrá un lugar aquí."
+msgstr "Favorite a saved review and its book will have a place here."
+
+msgid "Me apetece"
+msgstr "Interested"
+
+msgid "Me hace mucha ilusión"
+msgstr "Really want it"
+
+msgid "Me lo han regalado"
+msgstr "I received it as a gift"
+
+msgid "Media desde enero, incluido el mes actual."
+msgstr "Average since January, including the current month."
+
+msgid "Media desde enero, incluido el mes actual. Tu ritmo es solo tuyo."
+msgstr "Average since January, including this month. Your pace is your own."
+
+msgid "Mi cuenta"
+msgstr "My account"
+
+msgid "Mi cuenta:"
+msgstr "My account:"
+
+msgid "Mi email"
+msgstr "My email"
+
+msgid "Mi reseña"
+msgstr "My review"
+
+msgid "Mi rincón lector"
+msgstr "My reading space"
+
+msgid "Mira todo lo que has recorrido."
+msgstr "Look how far you have come."
+
+msgid "Mis reseñas"
+msgstr "My reviews"
+
+msgid "Misma obra; otra edición"
+msgstr "Same work; another edition"
+
+msgid "Mismo ISBN en %(count)s fuentes"
+msgstr "Same ISBN in %(count)s sources"
+
+msgid "Mismo ISBN válido"
+msgstr "Same valid ISBN"
+
+msgid "Motivos del orden de búsqueda"
+msgstr "Reasons for search ranking"
+
+msgid "Mover mis libros"
+msgstr "Move my books"
+
+msgid "Más detalles de la reseña"
+msgstr "More review details"
+
+msgid "Más resultados →"
+msgstr "More results →"
+
+msgid "Navegación principal"
+msgstr "Main navigation"
+
+msgid "Necesitas conexión para consultar tus libros y guardar cambios."
+msgstr "You need a connection to view your books and save changes."
+
+msgid "No encontramos esta edición en BookBrainz."
+msgstr "We couldn’t find this edition in BookBrainz."
+
+msgid "No encontramos esta edición en Inventaire."
+msgstr "We couldn’t find this edition in Inventaire."
+
+msgid "No encontramos esta página. El enlace puede haber cambiado o el contenido no estar disponible para ti."
+msgstr "We couldn’t find this page. The link may have changed or the content may not be available to you."
+
+msgid "No encontramos una cámara. Puedes usar una foto o escribir el ISBN."
+msgstr "No camera was found. Use a photo or enter the ISBN."
+
+msgid "No es una pausa dramática. Bueno, un poco sí."
+msgstr "This is not a dramatic pause. Well, maybe a little."
+
+msgid "No hace falta actualizar sin parar. También es buen momento para leer una página."
+msgstr "No need to keep refreshing. It’s a good moment to read a page instead."
+
+msgid "No hay ediciones disponibles aquí."
+msgstr "No editions available here."
+
+msgid "No hay libros válidos para importar. Comprueba el archivo y los campos de título y autor."
+msgstr "There are no valid books to import. Check the file and the title and author fields."
+
+msgid "No hay libros."
+msgstr "No books found."
+
+msgid "No hay notas."
+msgstr "No notes yet."
+
+msgid "No hay resultados."
+msgstr "No results."
+
+msgid "No hemos encontrado ese libro."
+msgstr "We couldn’t find that book."
+
+msgid "No hemos encontrado un código legible. Prueba una foto más cercana y enfocada, o escribe el ISBN."
+msgstr "No readable code found. Try a closer, sharper photo or type the ISBN."
+
+msgid "No hemos leído el ISBN. Puedes intentarlo otra vez, elegir una foto o escribirlo."
+msgstr "We couldn’t read the ISBN. Try again, choose a photo or type it."
+
+msgid "No hemos podido completar esta petición. Prueba dentro de un momento. Si estabas guardando algo, comprueba el resultado antes de repetirlo."
+msgstr "We couldn’t complete this request. Try again shortly. If you were saving something, check the result before trying again."
+
+msgid "No hemos podido conectar con el catálogo. Puedes volver a intentarlo o añadir el libro manualmente."
+msgstr "We couldn’t connect to the catalogue. Try again or add the book manually."
+
+msgid "No hemos podido consultar los catálogos seleccionados. Tu búsqueda sigue arriba: puedes volver a intentarlo o añadir el libro manualmente."
+msgstr "We couldn’t query the selected catalogues. Your search is still above: try again or add the book manually."
+
+msgid "No hemos podido preparar el archivo. Comprueba tu conexión o vuelve a iniciar sesión e inténtalo de nuevo."
+msgstr "We couldn’t prepare the file. Check your connection or sign in again and retry."
+
+msgid "No hemos podido usar la cámara. Prueba una foto del código o escribe el ISBN."
+msgstr "We couldn’t use the camera. Try a barcode photo or type the ISBN."
+
+msgid "No reconocemos este CSV de Entrelíneas. Utiliza el archivo descargado con Exportar."
+msgstr "We don’t recognise this Entrelíneas CSV. Use the file downloaded with Export."
+
+msgid "No reconocemos este CSV. Descarga el archivo desde Export Library en Goodreads."
+msgstr "We don’t recognise this CSV. Download the file using Export Library on Goodreads."
+
+msgid "No se ha permitido la cámara. Puedes elegir una foto o escribir el ISBN."
+msgstr "Camera access was denied. Choose a photo or type the ISBN."
+
+msgid "No se ha podido completar la búsqueda externa"
+msgstr "Could not complete the external search"
+
+msgid "No se ha podido completar toda la búsqueda. Puedes importar con las coincidencias encontradas o volver a subir el archivo."
+msgstr "Could not complete the whole search. You can import with the matches found or upload the file again."
+
+msgid "No se ha podido leer el CSV. Utiliza el archivo original de Goodreads."
+msgstr "Could not read the CSV. Use the original Goodreads file."
+
+msgid "No se ha podido leer el CSV. Utiliza un archivo UTF-8 exportado desde Entrelíneas."
+msgstr "Could not read the CSV. Use a UTF-8 file exported from Entrelíneas."
+
+msgid "No se ha podido leer la respuesta de BNE."
+msgstr "Could not read BNE’s response."
+
+msgid "No se han podido cargar más resultados. Pulsa para reintentar."
+msgstr "Could not load more results. Tap to retry."
+
+msgid "Nombre"
+msgstr "Name"
+
+msgid "Nos vemos entre líneas."
+msgstr "See you between the lines."
+
+msgid "Nota eliminada."
+msgstr "Note deleted."
+
+msgid "Nota guardada."
+msgstr "Note saved."
+
+msgid "Nota personal guardada."
+msgstr "Personal note saved."
+
+msgid "Notas"
+msgstr "Notes"
+
+msgid "Notas personales añadidas"
+msgstr "Personal notes added"
+
+msgid "Notificaciones"
+msgstr "Notifications"
+
+msgid "Nuestro marcapáginas está haciendo de brújula…"
+msgstr "Our bookmark is doubling as a compass…"
+
+msgid "Nuestro servidor está viviendo un drama."
+msgstr "Our server is going through a drama."
+
+msgid "Nuestros catálogos están pasando página."
+msgstr "Our catalogues are turning the page."
+
+msgid "Nueva contraseña"
+msgstr "New password"
+
+msgid "Nunca te fíes del todo de un narrador poco fiable."
+msgstr "Never fully trust an unreliable narrator."
+
+msgid "Obra"
+msgstr "Work"
+
+msgid "Ocre"
+msgstr "Ochre"
+
+msgid "Opciones de la cuenta"
+msgstr "Account options"
+
+msgid "Origen del archivo"
+msgstr "File source"
+
+msgid "Oscuro"
+msgstr "Dark"
+
+msgid "Otro idioma"
+msgstr "Other language"
+
+msgid "Para acceder a tus lecturas necesitas confirmar tu correo. Te hemos enviado el enlace de verificación."
+msgstr "Verify your email to access your books. We have sent you a verification link."
+
+msgid "Para buscar se consultan únicamente ISBN, título y autor en: %(catalog_providers)s. Tus reseñas no se envían a estas fuentes."
+msgstr "Only ISBN, title and author are used to search: %(catalog_providers)s. Your reviews are not sent to these sources."
+
+msgid "Para modificar los datos del catálogo, cambia la edición desde la ficha del libro."
+msgstr "To change catalogue details, select another edition on the book page."
+
+msgid "Parece que se les han pegado dos."
+msgstr "Looks like two pages got stuck together."
+
+msgid "Paso 1 · En Goodreads"
+msgstr "Step 1 · On Goodreads"
+
+msgid "Paso 2 · En Entrelíneas"
+msgstr "Step 2 · On Entrelíneas"
+
+msgid "Pasos"
+msgstr "Steps"
+
+msgid "Pasos de la exportación"
+msgstr "Export steps"
+
+msgid "Pasos de la importación"
+msgstr "Import steps"
+
+msgid "Pendiente"
+msgstr "To read"
+
+msgid "Pendiente de buscar en las fuentes externas"
+msgstr "Waiting to search external sources"
+
+msgid "Pendiente de verificar"
+msgstr "Awaiting verification"
+
+msgid "Pendientes"
+msgstr "To read"
+
+msgid "Pequeños imprevistos literarios"
+msgstr "Little literary mishaps"
+
+msgid "Perfil"
+msgstr "Profile"
+
+msgid "Perfil actualizado."
+msgstr "Profile updated."
+
+msgid "Permite el acceso a la cámara para escanear el libro."
+msgstr "Allow camera access to scan the book."
+
+msgid "Permite el acceso a la cámara y acerca el código de barras."
+msgstr "Allow camera access and move the barcode closer."
+
+msgid "Persiguiendo una portada que nos suena mucho…"
+msgstr "Chasing a very familiar cover…"
+
+msgid "Pidiendo indicaciones a un personaje secundario…"
+msgstr "Asking a supporting character for directions…"
+
+msgid "Plataforma"
+msgstr "Platform"
+
+msgid "Podrás revisarlo todo antes de importar."
+msgstr "You can review everything before importing."
+
+msgid "Poniéndonos las gafas de encontrar historias…"
+msgstr "Putting on our story-finding glasses…"
+
+msgid "Por aquí huele a papel y a una buena historia."
+msgstr "It smells like paper and a good story in here."
+
+msgid "Por suerte, todavía sabemos volver al principio."
+msgstr "Luckily, we still know the way back to the beginning."
+
+msgid "Por título, autor o ISBN."
+msgstr "By title, author or ISBN."
+
+msgid "Portada"
+msgstr "Cover"
+
+msgid "Portada añadida."
+msgstr "Cover added."
+
+msgid "Portada de la obra"
+msgstr "Work cover"
+
+msgid "Portada de otra edición de la misma obra"
+msgstr "Cover from another edition of the same work"
+
+msgid "Portada indicada"
+msgstr "Cover available"
+
+msgid "Preferencia de edición: %(edition)s"
+msgstr "Edition preference: %(edition)s"
+
+msgid "Preguntando al bibliotecario de los libros perdidos…"
+msgstr "Asking the librarian of lost books…"
+
+msgid "Preparamos el equipaje"
+msgstr "Packing your books"
+
+msgid "Preparando la búsqueda de portadas y metadatos…"
+msgstr "Preparing the cover and metadata search…"
+
+msgid "Preparando tus libros"
+msgstr "Preparing your books"
+
+msgid "Preparar mi archivo CSV"
+msgstr "Prepare my CSV file"
+
+msgid "Primero, el punto de partida"
+msgstr "First, where we’re starting"
+
+msgid "Privada"
+msgstr "Private"
+
+msgid "Privadas"
+msgstr "Private"
+
+msgid "Progreso de la importación"
+msgstr "Import progress"
+
+msgid "Progreso de lectura"
+msgstr "Reading progress"
+
+msgid "Prueba con otra búsqueda o vuelve a todas tus reseñas."
+msgstr "Try another search or view all your reviews."
+
+msgid "Prueba el ISBN o consulta Open Library desde el buscador."
+msgstr "Try the ISBN or search Open Library."
+
+msgid "Prueba otro título, autor o el ISBN de una edición concreta."
+msgstr "Try another title, author or the ISBN of a specific edition."
+
+msgid "Publicación"
+msgstr "Publication"
+
+msgid "Puede haber caducado o haberse utilizado. Prueba a entrar para solicitar otro correo de verificación."
+msgstr "It may have expired or already been used. Try signing in to request another verification email."
+
+msgid "Puede que esta página no exista. Tu próxima lectura, seguro que sí."
+msgstr "This page may not exist. Your next read certainly does."
+
+msgid "Puedes importar desde Goodreads o desde una exportación de Entrelíneas."
+msgstr "You can import from Goodreads or from an Entrelíneas export."
+
+msgid "Puedes importar hasta 5.000 libros por archivo."
+msgstr "You can import up to 5,000 books per file."
+
+msgid "Puedes volver a usar la cámara o elegir otra foto."
+msgstr "You can use the camera again or choose another photo."
+
+msgid "Pulsa Compartir y después Añadir a la pantalla de inicio."
+msgstr "Tap Share, then Add to Home Screen."
+
+msgid "Pulsa Export Library y espera a que se genere el archivo. Puede tardar unos minutos."
+msgstr "Click Export Library and wait for the file to be generated. This may take a few minutes."
+
+msgid "Pulsa Exportar CSV en Biblioteca o Mi cuenta. El archivo incluye lecturas, reseñas, notas personales y deseos, con sus valoraciones decimales y fechas."
+msgstr "Click Export CSV in Library or My account. The file includes readings, reviews, personal notes and wishes, with decimal ratings and dates."
+
+msgid "Pulsa el enlace Your export from… que aparecerá debajo del botón para descargar el CSV."
+msgstr "Click the Your export from… link below the button to download the CSV."
+
+msgid "Página"
+msgstr "Page"
+
+msgid "Página a página"
+msgstr "Page by page"
+
+msgid "Páginas"
+msgstr "Pages"
+
+msgid "Páginas del catálogo"
+msgstr "Catalogue pages"
+
+msgid "Páginas este año"
+msgstr "Pages this year"
+
+msgid "Quitar de"
+msgstr "Remove from"
+
+msgid "Qué recordar"
+msgstr "What to remember"
+
+msgid "Recibido como regalo desde la lista de deseos."
+msgstr "Received as a gift from the wishlist."
+
+msgid "Recomendado para"
+msgstr "Recommended for"
+
+msgid "Recuperamos tus lecturas, reseñas, notas y deseos del archivo de Entrelíneas."
+msgstr "We restore your readings, reviews, notes and wishes from the Entrelíneas file."
+
+msgid "Recuperar contraseña"
+msgstr "Reset password"
+
+msgid "Reenviar verificación"
+msgstr "Resend verification"
+
+msgid "Referencia de BNE no válida."
+msgstr "Invalid BNE reference."
+
+msgid "Referencia de Boktyven no válida."
+msgstr "Invalid Boktyven reference."
+
+msgid "Referencia de BookBrainz no válida."
+msgstr "Invalid BookBrainz reference."
+
+msgid "Referencia de autor no válida."
+msgstr "Invalid author reference."
+
+msgid "Referencia de catálogo no válida."
+msgstr "Invalid catalogue reference."
+
+msgid "Regalado"
+msgstr "Received"
+
+msgid "Regalo recibido. El libro está en tu biblioteca."
+msgstr "Gift received. The book is in your library."
+
+msgid "Reintentar búsqueda"
+msgstr "Retry search"
+
+msgid "Reintentar cámara"
+msgstr "Retry camera"
+
+msgid "Reseña"
+msgstr "Review"
+
+msgid "Reseña guardada."
+msgstr "Review saved."
+
+msgid "Reseñar"
+msgstr "Review"
+
+msgid "Reseñas"
+msgstr "Reviews"
+
+msgid "Reseñas anteriores conservadas"
+msgstr "Saved previous reviews"
+
+msgid "Reseñas añadidas"
+msgstr "Reviews added"
+
+msgid "Reseñas y valoraciones"
+msgstr "Reviews and ratings"
+
+msgid "Respuesta XML no válida de BNE."
+msgstr "Invalid XML response from BNE."
+
+msgid "Resultados"
+msgstr "Results"
+
+msgid "Retomar lectura"
+msgstr "Continue reading"
+
+msgid "Reuniendo tus historias…"
+msgstr "Gathering your stories…"
+
+msgid "Revisa antes de importar"
+msgstr "Review before importing"
+
+msgid "Revisa el formato de este campo."
+msgstr "Check the format of this field."
+
+msgid "Revisa los resultados"
+msgstr "Review the results"
+
+msgid "Revisa también la carpeta de spam."
+msgstr "Check your spam folder too."
+
+msgid "Revisa tu correo"
+msgstr "Check your email"
+
+msgid "Revisa tu correo."
+msgstr "Check your email."
+
+msgid "Revisa tu email"
+msgstr "Check your email"
+
+msgid "Revisando debajo del montón de libros pendientes…"
+msgstr "Checking under the to-read pile…"
+
+msgid "Revisar"
+msgstr "Review"
+
+msgid "Revisar datos"
+msgstr "Review details"
+
+msgid "Revisar mi archivo"
+msgstr "Review my file"
+
+msgid "Revisar mi email"
+msgstr "Check my email"
+
+msgid "Reúne tus historias"
+msgstr "Gather your stories"
+
+msgid "Reúne tus libros y guarda lo que no quieres olvidar de cada lectura."
+msgstr "Bring your books together and keep what you want to remember from each read."
+
+msgid "Rosa"
+msgstr "Pink"
+
+msgid "Sabíamos por dónde íbamos. Más o menos."
+msgstr "We knew where we were. More or less."
+
+msgid "Se actualizarán los datos del libro. Se conservan el progreso, las fechas, la reseña y las notas."
+msgstr "Book details will be updated. Progress, dates, review and notes are kept."
+
+msgid "Se añadirá como una edición de"
+msgstr "It will be added as an edition of"
+
+msgid "Se buscará el libro automáticamente al leer el código."
+msgstr "The book will be searched automatically when the barcode is read."
+
+msgid "Se creará una obra nueva con esta edición."
+msgstr "A new work will be created with this edition."
+
+msgid "Se muestran hasta 50 libros por sección. Al confirmar se importan todos los registros válidos. La vista previa caduca en 30 minutos."
+msgstr "Showing up to 50 books per section. Confirming imports all valid records. The preview expires in 30 minutes."
+
+msgid "Se muestran los primeros 20 avisos."
+msgstr "Showing the first 20 warnings."
+
+msgid "Se muestran los primeros 50 libros válidos. La confirmación importará todos los libros válidos del archivo. La vista previa caduca en 30 minutos."
+msgstr "Showing the first 50 valid books. Confirming will import all valid books in the file. The preview expires in 30 minutes."
+
+msgid "Se nos ha caído la estantería."
+msgstr "The bookshelf has fallen over."
+
+msgid "Selecciona el CSV que has exportado de tu cuenta."
+msgstr "Choose the CSV exported from your account."
+
+msgid "Selecciona para consultar sus datos"
+msgstr "Select to view details"
+
+msgid "Selecciona tu archivo CSV"
+msgstr "Select your CSV file"
+
+msgid "Selecciona una opción."
+msgstr "Select an option."
+
+msgid "Selecciona y copia el enlace con el menú de tu navegador."
+msgstr "Select and copy the link using your browser’s menu."
+
+msgid "Separa las etiquetas con comas."
+msgstr "Separate tags with commas."
+
+msgid "Separadas por comas: para releer, me hizo pensar…"
+msgstr "Comma-separated: reread, thought-provoking…"
+
+msgid "Separando los títulos de los giros de guion…"
+msgstr "Separating the titles from the plot twists…"
+
+msgid "Sesión cerrada."
+msgstr "Signed out."
+
+msgid "Sesión iniciada."
+msgstr "Signed in."
+
+msgid "Si ese email tiene una cuenta, te hemos enviado las instrucciones para cambiar la contraseña."
+msgstr "If that email is linked to an account, we have sent password reset instructions."
+
+msgid "Si estabas guardando algo, comprueba el resultado cuando vuelva el servicio antes de repetirlo."
+msgstr "If you were saving something, check the result when the service is back before trying again."
+
+msgid "Si no lo encuentras, revisa la carpeta de spam. Puedes volver a intentar entrar para solicitar otro correo, sujeto al tiempo de espera."
+msgstr "If you cannot find it, check spam. You can try signing in again to request another email after the waiting period."
+
+msgid "Siempre es buen momento para otro capítulo."
+msgstr "There is always time for another chapter."
+
+msgid "Siguiendo un rastro de marcapáginas…"
+msgstr "Following a trail of bookmarks…"
+
+msgid "Siguiente →"
+msgstr "Next →"
+
+msgid "Sin ISBN informado"
+msgstr "No ISBN available"
+
+msgid "Sin coincidencia fiable; se conservarán los datos del CSV"
+msgstr "No reliable match; CSV data will be kept"
+
+msgid "Sin conexión · Entrelíneas"
+msgstr "Offline · Entrelíneas"
+
+msgid "Sin valorar"
+msgstr "Not rated"
+
+msgid "Sinopsis"
+msgstr "Synopsis"
+
+msgid "Sinopsis del catálogo"
+msgstr "Catalogue synopsis"
+
+msgid "Solicita uno nuevo para recuperar el acceso a tus lecturas."
+msgstr "Request a new link to regain access to your books."
+
+msgid "Solicitar otro enlace"
+msgstr "Request another link"
+
+msgid "Solo yo"
+msgstr "Only me"
+
+msgid "Sube tu archivo CSV"
+msgstr "Upload your CSV file"
+
+msgid "Sube tu archivo de Goodreads"
+msgstr "Upload your Goodreads file"
+
+msgid "Sí, eliminar"
+msgstr "Yes, delete"
+
+msgid "También estás leyendo"
+msgstr "Also on your nightstand"
+
+msgid "También puedes arrastrarlo hasta aquí"
+msgstr "You can also drop it here"
+
+msgid "También se eliminarán su reseña y sus notas personales."
+msgstr "Its review and personal notes will also be deleted."
+
+msgid "También viajan tus notas, fechas, progreso y valoraciones."
+msgstr "Your notes, dates, progress and ratings come along too."
+
+msgid "Te has salido del mapa de la novela."
+msgstr "You’ve wandered off the novel’s map."
+
+msgid "Te hemos enviado un enlace para verificar tu email. Ábrelo para activar tu cuenta."
+msgstr "We have sent an email verification link. Open it to activate your account."
+
+msgid "Terminado"
+msgstr "Finished"
+
+msgid "Terminados"
+msgstr "Finished"
+
+msgid "Todas"
+msgstr "All"
+
+msgid "Todas las fuentes"
+msgstr "All sources"
+
+msgid "Todavía estamos intentando pasar esta."
+msgstr "We’re still trying to turn this one."
+
+msgid "Todavía no se ha guardado ningún libro."
+msgstr "No books have been saved yet."
+
+msgid "Todo"
+msgstr "All"
+
+msgid "Todo empieza con una historia"
+msgstr "It all begins with a story"
+
+msgid "Todo listo para volver."
+msgstr "You’re ready to sign in."
+
+msgid "Todos"
+msgstr "All"
+
+msgid "Trae tus historias o prepara su próximo viaje."
+msgstr "Bring your stories over or prepare their next journey."
+
+msgid "Trae tus libros y reseñas de Goodreads a Entrelíneas."
+msgstr "Bring your Goodreads books and reviews to Entrelíneas."
+
+msgid "Traer mis libros"
+msgstr "Bring my books here"
+
+msgid "Tu archivo"
+msgstr "Your file"
+
+msgid "Tu año en detalle"
+msgstr "Your year in detail"
+
+msgid "Tu año en libros"
+msgstr "Your year in books"
+
+msgid "Tu biblioteca"
+msgstr "Your library"
+
+msgid "Tu biblioteca va contigo"
+msgstr "Your library goes with you"
+
+msgid "Tu biblioteca y tus reseñas, siempre a mano."
+msgstr "Your library and reviews, always at hand."
+
+msgid "Tu biblioteca ya tiene equipaje"
+msgstr "Your library is packed and ready"
+
+msgid "Tu contraseña se ha actualizado."
+msgstr "Your password has been updated."
+
+msgid "Tu cuenta"
+msgstr "Your account"
+
+msgid "Tu dirección de acceso nunca aparece en las listas que compartes."
+msgstr "Your sign-in email never appears in shared lists."
+
+msgid "Tu espacio privado"
+msgstr "Your private space"
+
+msgid "Tu estantería especial"
+msgstr "Your special shelf"
+
+msgid "Tu historia lectora sigue siendo solo tuya."
+msgstr "Your reading story stays yours alone."
+
+msgid "Tu historia lectora, para llevar"
+msgstr "Your reading story, to go"
+
+msgid "Tu historia lectora, solo para ti."
+msgstr "Your reading story, just for you."
+
+msgid "Tu lectura ·"
+msgstr "Reading progress ·"
+
+msgid "Tu lista de deseos empieza aquí."
+msgstr "Your wishlist starts here."
+
+msgid "Tu lista está vacía."
+msgstr "Your wishlist is empty."
+
+msgid "Tu perfil se ha actualizado."
+msgstr "Your profile has been updated."
+
+msgid "Tu primera reseña empieza con una sensación."
+msgstr "Your first review starts with a feeling."
+
+msgid "Tu próxima gran lectura empieza aquí."
+msgstr "Your next great read starts here."
+
+msgid "Tu próxima historia"
+msgstr "Your next story"
+
+msgid "Tu reseña se ha guardado. Solo tú puedes verla."
+msgstr "Your review has been saved. Only you can see it."
+
+msgid "Tu reseña será la misma para todas sus ediciones."
+msgstr "Your review will be the same for all its editions."
+
+msgid "Tu ritmo de lectura"
+msgstr "Your reading rhythm"
+
+msgid "Tu universo lector"
+msgstr "Your reading universe"
+
+msgid "Tu vida entre libros"
+msgstr "Your life in books"
+
+msgid "Tus estanterías, reseñas y libros por descubrir."
+msgstr "Your shelves, reviews and books to discover."
+
+msgid "Tus imprescindibles"
+msgstr "Your must-reads"
+
+msgid "Tus lecturas ya están en Entrelíneas."
+msgstr "Your reading history is now in Entrelíneas."
+
+msgid "Tus lecturas, reseñas y deseos en un archivo para guardar."
+msgstr "Your readings, reviews and wishes in a file to keep."
+
+msgid "Tus lecturas, también aquí"
+msgstr "Your reading history, here too"
+
+msgid "Tus libros"
+msgstr "Your books"
+
+msgid "Tus libros siguen siendo tuyos, vayan donde vayan."
+msgstr "Your books stay yours, wherever they go."
+
+msgid "Tus libros vienen contigo"
+msgstr "Your books come with you"
+
+msgid "Tus libros y reseñas existentes se conservan, sin duplicados."
+msgstr "Your existing books and reviews are kept, without duplicates."
+
+msgid "Tus libros, reseñas y deseos en un solo lugar."
+msgstr "Your books, reviews and wishlist in one place."
+
+msgid "Tus opiniones y recuerdos, reunidos en un solo lugar."
+msgstr "Your thoughts and memories, all in one place."
+
+msgid "Tus reseñas"
+msgstr "Your reviews"
+
+msgid "Tus reseñas seguirán siendo privadas. No necesitamos tu contraseña de Goodreads. El archivo se procesa en el servidor; la vista previa se conserva temporalmente durante 30 minutos."
+msgstr "Your reviews will stay private. We don’t need your Goodreads password. The file is processed on the server; the preview is temporarily kept for 30 minutes."
+
+msgid "Tus reseñas siguen siendo privadas."
+msgstr "Your reviews stay private."
+
+msgid "Tus reseñas son privadas por defecto."
+msgstr "Your reviews are private by default."
+
+msgid "Título"
+msgstr "Title"
+
+msgid "Título exacto"
+msgstr "Exact title"
+
+msgid "Título muy similar"
+msgstr "Very similar title"
+
+msgid "Título normalizado idéntico"
+msgstr "Identical normalized title"
+
+msgid "Título y autor coincidentes"
+msgstr "Matching title and author"
+
+msgid "Título, autor o ISBN"
+msgstr "Title, author or ISBN"
+
+msgid "Título, autor o ISBN…"
+msgstr "Title, author or ISBN…"
+
+msgid "Un administrador debe tener is_staff e is_superuser."
+msgstr "An administrator must have is_staff and is_superuser enabled."
+
+msgid "Un año de historias"
+msgstr "A year of stories"
+
+msgid "Un capítulo más."
+msgstr "One more chapter."
+
+msgid "Un clásico de la literatura de enlaces rotos."
+msgstr "A classic of broken-link literature."
+
+msgid "Un libro nunca llega tarde: crea suspense."
+msgstr "A book is never late: it builds suspense."
+
+msgid "Un momento: este libro se ha escondido detrás de otro."
+msgstr "One moment: this book is hiding behind another."
+
+msgid "Un ratito para ti"
+msgstr "A little time for you"
+
+msgid "Una biblioteca que ya exportaste desde aquí."
+msgstr "A library you previously exported from here."
+
+msgid "Una copia de toda tu biblioteca. Para guardarla o volver a traerla cuando quieras."
+msgstr "A copy of your entire library. Keep it safe or bring it back whenever you want."
+
+msgid "Una edición tan exclusiva que ni nosotros la tenemos."
+msgstr "An edition so exclusive even we don’t have it."
+
+msgid "Una nueva contraseña."
+msgstr "A new password."
+
+msgid "Una nueva historia te espera"
+msgstr "A new story awaits"
+
+msgid "Una pausa en la búsqueda"
+msgstr "A pause in the search"
+
+msgid "Una pausa para cambiar de escenario y poner el té."
+msgstr "A pause for a change of scene and a cup of tea."
+
+msgid "Una última comprobación"
+msgstr "One last check"
+
+msgid "Unexpected catalog response"
+msgstr "Unexpected catalogue response"
+
+msgid "Usa como máximo %(limit)s caracteres."
+msgstr "Use no more than %(limit)s characters."
+
+msgid "Usar una foto"
+msgstr "Use a photo"
+
+msgid "Utiliza un enlace http o https."
+msgstr "Use an http or https link."
+
+msgid "Valoración"
+msgstr "Rating"
+
+msgid "Valoración media"
+msgstr "Average rating"
+
+msgid "Ver"
+msgstr "View"
+
+msgid "Ver detalles"
+msgstr "View details"
+
+msgid "Ver ediciones"
+msgstr "View editions"
+
+msgid "Ver edición"
+msgstr "View edition"
+
+msgid "Ver en tienda"
+msgstr "View in store"
+
+msgid "Ver libro"
+msgstr "View book"
+
+msgid "Ver libros"
+msgstr "View books"
+
+msgid "Ver mi biblioteca"
+msgstr "View my library"
+
+msgid "Ver otras ediciones de esta obra →"
+msgstr "View other editions →"
+
+msgid "Ver reseña"
+msgstr "View review"
+
+msgid "Ver todas mis reseñas"
+msgstr "View all my reviews"
+
+msgid "Ver todos"
+msgstr "View all"
+
+msgid "Ver versiones"
+msgstr "View versions"
+
+msgid "Ver vista previa"
+msgstr "Preview import"
+
+msgid "Ver vista previa y buscar"
+msgstr "Preview and search"
+
+msgid "Verde"
+msgstr "Green"
+
+msgid "Verifica tu email"
+msgstr "Verify your email"
+
+msgid "Verifica tu email."
+msgstr "Verify your email."
+
+msgid "Verificado"
+msgstr "Verified"
+
+msgid "Vista previa de la importación"
+msgstr "Import preview"
+
+msgid "Volumen o contenido diferente"
+msgstr "Different volume or content"
+
+msgid "Volvemos en un capítulo."
+msgstr "Back in one chapter."
+
+msgid "Volver a buscar"
+msgstr "Search again"
+
+msgid "Volver a intentarlo"
+msgstr "Try again"
+
+msgid "Volver al acceso"
+msgstr "Back to sign in"
+
+msgid "Volver al inicio"
+msgstr "Back to home"
+
+msgid "Vuelve cuando haya nuevos deseos."
+msgstr "Check back for new wishes."
+
+msgid "Y el mapa estaba, cómo no, dentro de otro libro."
+msgstr "And the map was, of course, inside another book."
+
+msgid "Y eso que era una edición digital."
+msgstr "And it was a digital edition."
+
+msgid "Ya importado"
+msgstr "Already imported"
+
+msgid "Ya importado; completar ficha si falta"
+msgstr "Already imported; complete the record if needed"
+
+msgid "Ya importado; conservar sus datos"
+msgstr "Already imported; keep its data"
+
+msgid "Ya importados: %(skipped)s · Reseñas existentes conservadas: %(kept)s."
+msgstr "Already imported: %(skipped)s · Existing reviews kept: %(kept)s."
+
+msgid "Ya sabemos qué diría un libro: pasa la página."
+msgstr "We know what a book would say: turn the page."
+
+msgid "a quién se lo recomendaría"
+msgstr "Recommended for"
+
+msgid "acceso/"
+msgstr "account/"
+
+msgid "autor o autora"
+msgstr "Author"
+
+msgid "biblioteca/"
+msgstr "library/"
+
+msgid "biblioteca/exportar/"
+msgstr "library/export/"
+
+msgid "biblioteca/importar/"
+msgstr "library/import/"
+
+msgid "biblioteca/importar/goodreads/"
+msgstr "library/import/goodreads/"
+
+msgid "biblioteca/mover/"
+msgstr "library/move/"
+
+msgid "borrador"
+msgstr "draft"
+
+msgid "buscar/"
+msgstr "search/"
+
+msgid "buscar/ficha/"
+msgstr "search/edition/"
+
+msgid "buscar/guardar/"
+msgstr "search/save/"
+
+msgid "cerrar-sesion/"
+msgstr "sign-out/"
+
+msgid "codigo/confirmar/"
+msgstr "code/confirm/"
+
+msgid "coincidencias"
+msgstr "matches"
+
+msgid "color de portada"
+msgstr "cover colour"
+
+msgid "confirmar-email/"
+msgstr "confirm-email/"
+
+msgid "confirmar-email/<str:key>/"
+msgstr "confirm-email/<str:key>/"
+
+msgid "contiene spoilers"
+msgstr "contains spoilers"
+
+msgid "continuará…"
+msgstr "to be continued…"
+
+msgid "contrasena/cambiar/"
+msgstr "password/change/"
+
+msgid "contrasena/crear/"
+msgstr "password/set/"
+
+msgid "contrasena/nueva/<uid:uidb36>-<str:key>/"
+msgstr "password/new/<uid:uidb36>-<str:key>/"
+
+msgid "contrasena/nueva/completada/"
+msgstr "password/new/complete/"
+
+msgid "contrasena/recuperar/"
+msgstr "password/reset/"
+
+msgid "contrasena/recuperar/enviada/"
+msgstr "password/reset/sent/"
+
+msgid "cuenta/"
+msgstr "profile/"
+
+msgid "de"
+msgstr "of"
+
+msgid "de 5 estrellas"
+msgstr "out of 5 stars"
+
+msgid "deseos/"
+msgstr "wishlist/"
+
+msgid "deseos/<int:pk>/editar/"
+msgstr "wishlist/<int:pk>/edit/"
+
+msgid "deseos/<int:pk>/eliminar/"
+msgstr "wishlist/<int:pk>/delete/"
+
+msgid "deseos/<int:pk>/recibido/"
+msgstr "wishes/<int:pk>/received/"
+
+msgid "deseos/compartir/"
+msgstr "wishlist/share/"
+
+msgid "deseos/nuevo/"
+msgstr "wishlist/new/"
+
+msgid "días por libro, de media, en las lecturas de este año con inicio y fin registrados."
+msgstr "days per book on average, for this year’s reads with recorded start and finish dates."
+
+msgid "e."
+msgstr "e."
+
+msgid "edición preferida"
+msgstr "preferred edition"
+
+msgid "email"
+msgstr "email"
+
+msgid "email/"
+msgstr "email/"
+
+msgid "enlace de compra"
+msgstr "purchase link"
+
+msgid "es tu correo."
+msgstr "is your email address."
+
+msgid "estado de lectura"
+msgstr "reading status"
+
+msgid "este año"
+msgstr "this year"
+
+msgid "etiquetas"
+msgstr "tags"
+
+msgid "favorita"
+msgstr "favourite"
+
+msgid "favoritos:"
+msgstr "favourites:"
+
+msgid "fin de lectura"
+msgstr "date finished"
+
+msgid "inactiva/"
+msgstr "inactive/"
+
+msgid "informa"
+msgstr "reports"
+
+msgid "iniciar-sesion/"
+msgstr "sign-in/"
+
+msgid "inicio de lectura"
+msgstr "date started"
+
+msgid "libros / mes"
+msgstr "books / month"
+
+msgid "libros leídos"
+msgstr "books read"
+
+msgid "libros/<int:pk>/"
+msgstr "books/<int:pk>/"
+
+msgid "libros/<int:pk>/editar/"
+msgstr "books/<int:pk>/edit/"
+
+msgid "libros/<int:pk>/eliminar/"
+msgstr "books/<int:pk>/delete/"
+
+msgid "libros/<int:pk>/notas/"
+msgstr "books/<int:pk>/notes/"
+
+msgid "libros/<int:pk>/portada/"
+msgstr "books/<int:pk>/cover/"
+
+msgid "libros/nuevo/"
+msgstr "books/new/"
+
+msgid "lista/<str:token>/"
+msgstr "list/<str:token>/"
+
+msgid "lo mejor"
+msgstr "highlights"
+
+msgid "lo que me dejó"
+msgstr "Review"
+
+msgid "lo que no me convenció"
+msgstr "Room for improvement"
+
+msgid "nombre visible"
+msgstr "display name"
+
+msgid "nota personal"
+msgstr "personal note"
+
+msgid "notas/<int:pk>/eliminar/"
+msgstr "notes/<int:pk>/delete/"
+
+msgid "obligatorio"
+msgstr "required"
+
+msgid "para mi yo del futuro"
+msgstr "What to remember"
+
+msgid "pendiente"
+msgstr "pending"
+
+msgid "portadas/<uuid:pk>/"
+msgstr "covers/<uuid:pk>/"
+
+msgid "prioridad"
+msgstr "priority"
+
+msgid "página"
+msgstr "page"
+
+msgid "página actual"
+msgstr "current page"
+
+msgid "páginas"
+msgstr "pages"
+
+msgid "páginas registradas"
+msgstr "recorded pages"
+
+msgid "páginas totales"
+msgstr "total pages"
+
+msgid "registro/"
+msgstr "sign-up/"
+
+msgid "resenas/"
+msgstr "reviews/"
+
+msgid "resenas/<int:pk>/editar/"
+msgstr "reviews/<int:pk>/edit/"
+
+msgid "resenas/<int:pk>/favorita/"
+msgstr "reviews/<int:pk>/favourite/"
+
+msgid "resenas/nueva/"
+msgstr "reviews/new/"
+
+msgid "salud/"
+msgstr "health/"
+
+msgid "título"
+msgstr "title"
+
+msgid "un capítulo"
+msgstr "one chapter"
+
+msgid "valoración"
+msgstr "rating"
+
+msgid "verificar-acceso/"
+msgstr "reauthenticate/"
+
+msgid "· Catálogo"
+msgstr "· Catalogue"
+
+msgid "· Consultado el"
+msgstr "· Retrieved on"
+
+msgid "· Entrelíneas"
+msgstr "· Entrelíneas"
+
+msgid "· Fin:"
+msgstr "· Finished:"
+
+msgid "· Página"
+msgstr "· Page"
+
+msgid "· Una pausa en la historia · Entrelíneas"
+msgstr "· A pause in the story · Entrelíneas"
+
+msgid "». Tu reseña y tus notas se conservarán."
+msgstr "”. Your review and notes will be kept."
+
+msgid "¿Cerrar sesión?"
+msgstr "Sign out?"
+
+msgid "¿Cómo descargo mi archivo?"
+msgstr "How do I download my file?"
+
+msgid "¿De dónde vienen tus libros?"
+msgstr "Where are your books coming from?"
+
+msgid "¿Dónde encuentro mi archivo de Entrelíneas?"
+msgstr "Where can I find my Entrelíneas file?"
+
+msgid "¿Dónde encuentro mi archivo de Goodreads?"
+msgstr "Where can I find my Goodreads file?"
+
+msgid "¿Eliminar esta nota personal?"
+msgstr "Delete this personal note?"
+
+msgid "¿Eliminar «"
+msgstr "Delete “"
+
+msgid "¿Eliminar «%(title)s»?"
+msgstr "Delete “%(title)s”?"
+
+msgid "¿Olvidaste tu contraseña?"
+msgstr "Forgot your password?"
+
+msgid "¿Qué hacemos con tus libros?"
+msgstr "What shall we do with your books?"
+
+msgid "¿Qué incluye mi archivo?"
+msgstr "What’s in my file?"
+
+msgid "¿Qué leemos ahora?"
+msgstr "What shall we read next?"
+
+msgid "¿Qué te dejó esta historia? Guarda lo que te hizo sentir."
+msgstr "What stayed with you? Save how this story made you feel."
+
+msgid "¿Ya tienes cuenta?"
+msgstr "Already have an account?"
+
+msgid "Última edición:"
+msgstr "Last edited:"
+
+msgid "← Anterior"
+msgstr "← Previous"
+
+msgid "← Biblioteca"
+msgstr "← Library"
+
+msgid "← Lista de deseos"
+msgstr "← Wishlist"
+
+msgid "← Mi cuenta"
+msgstr "← My account"
+
+msgid "← Volver"
+msgstr "← Back"
+
+msgid "← Volver a la biblioteca"
+msgstr "← Back to library"
+
+msgid "← Volver a mi biblioteca"
+msgstr "← Back to my library"
+
+msgid "← Volver al buscador"
+msgstr "← Back to search"
+
+msgid "%(count)s reseña"
+msgid_plural "%(count)s reseñas"
+msgstr[0] "%(count)s review"
+msgstr[1] "%(count)s reviews"
+
+msgid "%(count)s resultado"
+msgid_plural "%(count)s resultados"
+msgstr[0] "%(count)s result"
+msgstr[1] "%(count)s results"

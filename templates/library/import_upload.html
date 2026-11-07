@@ -1,0 +1,64 @@
+{% load i18n library_tags %}
+<section class="panel import-panel import-wizard" data-import-wizard data-initial-stage="{{ transfer_stage }}">
+<div data-wizard-step="direction" class="wizard-screen" {% if transfer_stage != 'direction' %}hidden{% endif %}>
+ <p class="wizard-kicker">{% translate "Elige el próximo destino" %}</p>
+ <h2 tabindex="-1" data-step-heading>{% translate "¿Qué hacemos con tus libros?" %}</h2>
+ <p class="wizard-intro">{% translate "Algunas historias llegan. Otras se vienen contigo." %}</p>
+ <div class="wizard-sources">
+  <a class="wizard-source" href="{% url 'library_import' %}" data-transfer-action="import"><span class="wizard-platform-mark transfer-mark-in" aria-hidden="true">{% icon 'arrow' %}</span><span class="wizard-source-copy"><strong>{% translate "Traer mis libros" %}</strong><span>{% translate "De Goodreads o de otro archivo de Entrelíneas a tu rincón lector." %}</span></span><span class="wizard-source-arrow" aria-hidden="true">{% icon 'arrow' %}</span></a>
+  <a class="wizard-source" href="{% url 'library_transfer' %}?direction=export" data-transfer-action="export"><span class="wizard-platform-mark transfer-mark-out" aria-hidden="true">{% icon 'arrow' %}</span><span class="wizard-source-copy"><strong>{% translate "Llevarme mi biblioteca" %}</strong><span>{% translate "Tus lecturas, reseñas y deseos en un archivo para guardar." %}</span></span><span class="wizard-source-arrow" aria-hidden="true">{% icon 'arrow' %}</span></a>
+ </div>
+ <p class="wizard-footnote">{% icon 'lock' %}{% translate "Tus libros siguen siendo tuyos, vayan donde vayan." %}</p>
+</div>
+{% include "library/transfer_export.html" %}
+<form method="post" enctype="multipart/form-data" data-wizard-form {% if transfer_stage == 'direction' or transfer_stage == 'export' %}hidden{% endif %}>{% csrf_token %}
+{% if error %}<p class="form-errors" role="alert">{{ error }}</p>{% endif %}
+{% if form.non_field_errors %}<div class="form-errors" role="alert">{{ form.non_field_errors }}</div>{% endif %}
+<div data-wizard-step="source" class="wizard-screen">
+ <a href="{% url 'library_transfer' %}" class="text-link wizard-back" data-wizard-home>← {% translate "Elegir otro camino" %}</a>
+ <p class="wizard-kicker">{% translate "Primero, el punto de partida" %}</p>
+ <h2 tabindex="-1" data-step-heading>{% translate "¿De dónde vienen tus libros?" %}</h2>
+ <p class="wizard-intro">{% translate "Elige una plataforma. Te acompañamos con el resto." %}</p>
+ <fieldset class="wizard-sources"><legend class="sr-only">{{ form.source.label }}</legend>
+ {% for radio in form.source %}<label class="wizard-source" data-platform="{{ radio.data.value }}">
+  {{ radio.tag }}
+  <span class="wizard-platform-mark {% if radio.data.value == 'goodreads' %}platform-goodreads{% endif %}" aria-hidden="true">{% if radio.data.value == 'goodreads' %}g{% else %}{% icon 'library' %}{% endif %}</span>
+  <span class="wizard-source-copy"><strong>{{ radio.choice_label }}</strong><span>{% if radio.data.value == 'goodreads' %}{% translate "Tus estanterías, reseñas y libros por descubrir." %}{% else %}{% translate "Una biblioteca que ya exportaste desde aquí." %}{% endif %}</span></span>
+  <span class="wizard-source-arrow" aria-hidden="true">{% icon 'arrow' %}</span>
+ </label>{% endfor %}
+ </fieldset>
+ {% if form.source.errors %}<div class="field-errors" role="alert">{{ form.source.errors }}</div>{% endif %}
+ <p class="wizard-footnote">{% icon 'lock' %}{% translate "Tu historia lectora sigue siendo solo tuya." %}</p>
+</div>
+<div data-wizard-step="file" class="wizard-screen">
+ <button class="text-link wizard-back" type="button" data-wizard-back hidden>← {% translate "Cambiar plataforma" %}</button>
+ <p class="wizard-kicker">{% translate "Ahora, traigamos tus historias" %}</p>
+ <h2 tabindex="-1" data-step-heading data-upload-heading>{% translate "Añade tu archivo" %}</h2>
+ <p class="wizard-intro">{% translate "Con el archivo listo, nos encargamos de organizar tus libros." %}</p>
+ <div class="wizard-dropzone" data-dropzone>
+  <span class="wizard-file-icon" aria-hidden="true">{% icon 'library' %}</span>
+  <label for="{{ form.file.id_for_label }}"><strong>{% translate "Selecciona tu archivo CSV" %}</strong><span class="wizard-drop-hint">{% translate "También puedes arrastrarlo hasta aquí" %}</span><span class="button secondary small">{% translate "Elegir archivo" %}</span></label>
+  {{ form.file }}
+ </div>
+ <p class="wizard-limits" id="wizard-file-help">CSV · 5 MB · {% translate "Hasta 5.000 libros" %}</p>
+ <p class="field-errors" data-file-error role="alert" hidden></p>
+ {% if form.file.errors %}<div class="field-errors" role="alert">{{ form.file.errors }}</div>{% endif %}
+ <div data-platform-help="goodreads" class="wizard-help">
+  <details><summary>{% translate "¿Dónde encuentro mi archivo de Goodreads?" %}</summary><ol class="goodreads-steps"><li>{% translate "Abre Goodreads en el navegador e inicia sesión." %}</li><li>{% translate "Entra en My Books → Import and export, en la sección Tools del menú lateral." %}</li><li>{% translate "Pulsa Export Library y espera a que se genere el archivo. Puede tardar unos minutos." %}</li><li>{% translate "Pulsa el enlace Your export from… que aparecerá debajo del botón para descargar el CSV." %}</li></ol><a class="text-link" href="https://www.goodreads.com/review/import" target="_blank" rel="noopener noreferrer">{% translate "Abrir exportación de Goodreads ↗" %}</a></details>
+ </div>
+ <div data-platform-help="entrelineas" class="wizard-help">
+  <details><summary>{% translate "¿Dónde encuentro mi archivo de Entrelíneas?" %}</summary><p>{% translate "En «Mover mis libros», elige «Llevarme mi biblioteca» y descarga tu archivo CSV." %}</p><p>{% translate "Las fotos de portada no se incluyen en el CSV. Se conservan los enlaces externos de portada." %}</p><a class="text-link" href="{% url 'library_transfer' %}?direction=export">{% translate "Llevarme mi biblioteca" %}</a></details>
+ </div>
+ <button class="button primary wizard-manual-submit" type="submit" data-upload-submit>{% translate "Revisar mi archivo" %}</button>
+ <p class="wizard-footnote">{% icon 'check' %}{% translate "Podrás revisarlo todo antes de importar." %}</p>
+</div>
+<div data-wizard-step="loading" class="wizard-screen wizard-loading" hidden role="status" aria-live="polite">
+ <div class="wizard-book-loading" aria-hidden="true"><span></span><span></span><span></span></div>
+ <p class="wizard-kicker">{% translate "Cada libro, a su lugar" %}</p>
+ <h2 tabindex="-1" data-step-heading>{% translate "Estamos abriendo tu biblioteca…" %}</h2>
+ <p class="wizard-intro">{% translate "Leyendo el archivo y preparando tus lecturas para que puedas revisarlas." %}</p>
+ <p class="wizard-footnote">{% translate "Todavía no se ha guardado ningún libro." %}</p>
+</div>
+</form>
+</section>
+<p class="wizard-reassurance" data-import-reassurance {% if transfer_stage == 'direction' or transfer_stage == 'export' %}hidden{% endif %}>{% translate "Tus libros y reseñas existentes se conservan, sin duplicados." %}</p>

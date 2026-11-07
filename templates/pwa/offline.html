@@ -1,0 +1,3 @@
+{% load i18n static %}
+<!doctype html><html lang="{{ language }}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="light dark"><title>{% translate "Sin conexión · Entrelíneas" %}</title><link rel="stylesheet" href="{% static 'pwa/offline.css' %}"><link rel="icon" href="{% static 'pwa/icon-192.png' %}"></head>
+<body><main><img src="{% static 'pwa/apple-touch-icon.png' %}" alt="Entrelíneas" width="76" height="76"><p class="brand">Entrelíneas</p><h1>{% translate "La conexión ha perdido el marcapáginas." %}</h1><p>{% translate "Conéctate para consultar tus libros y guardar cambios." %}</p><a href="{{ home_url }}">{% translate "Volver a intentarlo" %}</a></main></body></html>

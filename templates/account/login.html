@@ -1,0 +1,6 @@
+{% extends "auth_base.html" %}{% load i18n %}
+{% block title %}{% translate "Iniciar sesión" %}{% endblock %}
+{% block guest_action %}{% endblock %}
+{% block auth_content %}<h1>{% translate "Iniciar sesión" %}</h1>
+<form method="post" action="{% url 'account_login' %}" class="stack-form">{% csrf_token %}{{ redirect_field }}{% include "partials/form_fields.html" %}<button class="button primary" type="submit">{% translate "Entrar" %}</button></form>
+<a class="text-link" href="{% url 'account_reset_password' %}">{% translate "¿Olvidaste tu contraseña?" %}</a>{% if registration_open %}<p class="auth-switch"><a href="{% url 'account_signup' %}">{% translate "Crear una cuenta" %}</a></p>{% endif %}{% endblock %}

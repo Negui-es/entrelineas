@@ -1,0 +1,2 @@
+{% extends "auth_base.html" %}{% load i18n %}{% block title %}{% translate "Acceso a Entrelíneas" %}{% endblock %}
+{% block auth_content %}<h2>{% translate "Acceso" %}</h2><p>{% translate "Entra con tu cuenta existente." %}</p><a class="button primary" href="{% url 'account_login' %}">{% translate "Iniciar sesión" %}</a>{% endblock %}

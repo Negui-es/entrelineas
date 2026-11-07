@@ -1,0 +1,11 @@
+{% load i18n static %}
+<dialog id="install-dialog" class="install-dialog" aria-labelledby="install-title" aria-describedby="install-description">
+ <button type="button" class="scanner-close install-close" data-install-close aria-label="{% translate 'Cerrar aviso' %}"><span aria-hidden="true">×</span></button>
+ <img class="install-icon" src="{% static 'pwa/apple-touch-icon.png' %}" alt="" width="64" height="64">
+ <h2 id="install-title">{% translate "Instalar Entrelíneas" %}</h2><p id="install-description" class="muted">{% translate "Añade Entrelíneas a la pantalla de inicio." %}</p>
+ <button type="button" class="button primary" data-install-native hidden>{% translate "Instalar aplicación" %}</button>
+ <section data-install-guide="ios"><h3>iPhone / iPad</h3><ol><li>{% translate "Abre esta web en Safari." %}</li><li>{% translate "Pulsa Compartir y después Añadir a la pantalla de inicio." %}</li><li>{% translate "Activa Abrir como app, si aparece, y pulsa Añadir." %}</li></ol></section>
+ <section data-install-guide="android"><h3>Android</h3><ol><li>{% translate "Abre el menú del navegador (⋮)." %}</li><li>{% translate "Elige Instalar aplicación o Añadir a la pantalla de inicio." %}</li></ol></section>
+ <p class="install-domain small" data-install-domain hidden>{% translate "En tu móvil, abre" %} <a class="text-link" href="https://entrelineas.negui.es">entrelineas.negui.es</a>.</p>
+ <p class="field-help">{% translate "Necesitas conexión para consultar tus libros y guardar cambios." %}</p>
+</dialog>

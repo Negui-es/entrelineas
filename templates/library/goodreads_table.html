@@ -1,0 +1,6 @@
+{% load i18n library_tags %}
+<div class="import-book-grid" data-import-grid>{% for row in rows %}
+<article class="import-book" data-goodreads-id="{{ row.external_id }}">
+<div class="import-book-cover" aria-hidden="true">{% icon 'library' %}<img data-match-cover class="goodreads-match-cover" alt="" {% if row.match_cover %}src="{{ row.match_cover }}"{% else %}hidden{% endif %} loading="lazy"></div>
+<div class="import-book-info"><span class="import-book-destination">{{ row.destination_label }}</span><h3>{{ row.title }}</h3><p class="import-book-author">{{ row.author }}</p><p class="import-book-status">{{ row.status_label }}{% if row.rating %} · {{ row.rating }}/5{% endif %}</p><p data-match-label class="import-book-match">{{ row.match_label }}</p><span data-match-details hidden>{{ row.match_title }}</span><span data-cover-fallback hidden>{% translate "Portada de otra edición de la misma obra" %}</span></div>
+</article>{% endfor %}</div>

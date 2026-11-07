@@ -1,0 +1,2 @@
+{% extends "auth_base.html" %}{% load i18n %}{% block title %}{% translate "Revisa tu email" %}{% endblock %}
+{% block auth_content %}<h2>{% translate "Revisa tu correo." %}</h2><p>{% translate "Te hemos enviado un enlace para verificar tu email. Ábrelo para activar tu cuenta." %}</p><p class="muted">{% translate "Si no lo encuentras, revisa la carpeta de spam. Puedes volver a intentar entrar para solicitar otro correo, sujeto al tiempo de espera." %}</p><a class="button primary" href="{% url 'account_login' %}">{% translate "Volver al acceso" %}</a>{% endblock %}

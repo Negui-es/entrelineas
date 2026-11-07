@@ -1,0 +1,13 @@
+{% extends "base.html" %}{% load i18n %}
+{% block title %}{% if book %}{% translate "Editar libro" %}{% else %}{% translate "Añadir libro" %}{% endif %}{% endblock %}
+{% block utility %}{% endblock %}
+{% block content %}<div class="form-page">
+<a class="back-link" href="{% if book %}{{ book.get_absolute_url }}{% else %}{% url 'library' %}{% endif %}">{% translate "← Biblioteca" %}</a>
+<div class="page-heading"><h1>{% if book %}{% translate "Editar libro" %}{% else %}{% translate "Añadir libro" %}{% endif %}</h1></div>
+<form method="post" class="panel stack-form">{% csrf_token %}
+{% if form.non_field_errors %}<div class="form-errors" role="alert">{{ form.non_field_errors }}</div>{% endif %}
+<div class="form-grid"><div class="full-row">{% include "partials/field.html" with field=form.title %}</div>{% include "partials/field.html" with field=form.author %}{% include "partials/field.html" with field=form.status %}{% include "partials/field.html" with field=form.current_page %}{% include "partials/field.html" with field=form.total_pages %}</div>
+{% if book.catalog_edition_id %}<p class="field-help">{% translate "Para modificar los datos del catálogo, cambia la edición desde la ficha del libro." %}</p>{% endif %}
+<details class="optional-fields" {% if form.isbn.errors or form.color.errors or form.started_at.errors or form.finished_at.errors %}open{% endif %}><summary>{% translate "ISBN, fechas y portada" %}</summary><div class="form-grid">{% include "partials/field.html" with field=form.isbn %}{% include "partials/field.html" with field=form.color %}{% include "partials/field.html" with field=form.started_at %}{% include "partials/field.html" with field=form.finished_at %}</div></details>
+<div class="form-actions"><button class="button primary" type="submit">{% translate "Guardar libro" %}</button><a class="button secondary" href="{% if book %}{{ book.get_absolute_url }}{% else %}{% url 'library' %}{% endif %}">{% translate "Cancelar" %}</a></div>
+</form></div>{% endblock %}

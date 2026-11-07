@@ -1,0 +1,33 @@
+{% extends "base.html" %}{% load i18n library_tags %}
+{% block title %}{% translate "Mi cuenta" %}{% endblock %}{% block utility %}{% endblock %}
+{% block content %}
+<div class="account-settings">
+ <div class="page-heading"><h1>{% translate "Mi cuenta" %}</h1></div>
+ <div class="settings-layout">
+  <form method="post" class="settings-form">{% csrf_token %}
+   {% if form.non_field_errors %}<div class="field-errors" role="alert">{{ form.non_field_errors }}</div>{% endif %}
+   <section class="settings-card" aria-labelledby="profile-title">
+    <header class="settings-profile-heading"><span class="settings-avatar" aria-hidden="true">{{ user.initial }}</span><div><h2 id="profile-title">{% translate "Perfil" %}</h2><span class="settings-verified">{% icon 'check' %}{% translate "Email verificado" %}</span></div></header>
+    {% include 'partials/field.html' with field=form.display_name %}
+    <div class="settings-email"><span class="field-label">{% translate "Email de acceso" %}</span><div><span>{{ user.email }}</span><a href="{% url 'account_email' %}" class="text-link">{% translate "Gestionar" %}{% icon 'arrow-up' %}</a></div></div>
+   </section>
+   <section class="settings-card settings-appearance" aria-labelledby="appearance-title">
+    <fieldset class="theme-options{% if form.theme.errors %} invalid{% endif %}"><legend id="appearance-title">{% translate "Apariencia" %}</legend><p class="settings-description" id="theme-help">{% translate "Elige cómo quieres ver Entrelíneas." %}</p>
+     <div class="theme-choices">{% for option in form.theme %}<label class="theme-choice">{{ option.tag }}<span class="theme-preview theme-preview-{{ option.data.value }}" aria-hidden="true"><span class="theme-window"><span class="theme-window-bar"><i></i><i></i><i></i></span><span class="theme-window-content"><i></i><span><b></b><b></b><em></em></span></span></span></span><span class="theme-choice-caption">{{ option.choice_label }}<span class="theme-choice-check" aria-hidden="true">{% icon 'check' %}</span></span></label>{% endfor %}</div>
+     {% if form.theme.errors %}<div class="field-errors" role="alert">{{ form.theme.errors }}</div>{% endif %}
+     <p class="settings-theme-note">{% translate "Automático sigue el tema de tu dispositivo." %}</p>
+    </fieldset>
+   </section>
+   <div class="settings-save"><button class="button primary" type="submit">{% icon 'check' %}{% translate "Guardar cambios" %}</button></div>
+  </form>
+  <aside class="settings-sidebar" aria-label="{% translate 'Opciones de la cuenta' %}">
+   <div class="settings-card settings-tools">
+    <section aria-labelledby="access-title"><h2 id="access-title">{% translate "Acceso" %}</h2><a class="settings-action" href="{% url 'account_change_password' %}"><span class="settings-action-icon">{% icon 'lock' %}</span><span>{% translate "Cambiar contraseña" %}</span>{% icon 'arrow' %}</a></section>
+    <section aria-labelledby="books-title"><h2 id="books-title">{% translate "Biblioteca" %}</h2><a class="settings-action" href="{% url 'library_transfer' %}"><span class="settings-action-icon">{% icon 'library' %}</span><span>{% translate "Mover mis libros" %}</span>{% icon 'arrow' %}</a></section>
+    <section aria-labelledby="app-title"><h2 id="app-title">{% translate "Aplicación" %}</h2><button class="settings-action" type="button" data-install-open><span class="settings-action-icon">{% icon 'plus' %}</span><span>{% translate "Instalar Entrelíneas" %}</span>{% icon 'arrow' %}</button><p class="settings-description settings-installed" data-install-status hidden>{% translate "Estás usando Entrelíneas como aplicación." %}</p></section>
+   </div>
+   <form action="{% url 'account_logout' %}" method="post" class="settings-signout">{% csrf_token %}<button type="submit">{% translate "Cerrar sesión" %}{% icon 'arrow-up' %}</button></form>
+  </aside>
+ </div>
+</div>
+{% endblock %}

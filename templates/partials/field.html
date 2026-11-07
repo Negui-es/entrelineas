@@ -1,0 +1,10 @@
+{% load i18n %}
+{% if field.is_hidden %}{{ field }}{% else %}
+{% if field.field.widget.input_type == 'radio' %}
+<fieldset class="field radio-field{% if field.errors %} invalid{% endif %}"><legend>{{ field.label }}{% if field.field.required %}<span class="required" aria-label="{% translate "obligatorio" %}"> *</span>{% endif %}</legend>{{ field }}{% if field.errors %}<div class="field-errors" role="alert">{{ field.errors }}</div>{% endif %}</fieldset>
+{% else %}
+<div class="field{% if field.errors %} invalid{% endif %}{% if field.field.widget.input_type == 'checkbox' %} checkbox-field{% endif %}">
+ {% if field.field.widget.input_type == 'checkbox' %}<label for="{{ field.id_for_label }}">{{ field }} <span>{{ field.label }}</span></label>{% else %}<label for="{{ field.id_for_label }}">{{ field.label }}{% if field.field.required %}<span class="required" aria-label="{% translate "obligatorio" %}"> *</span>{% endif %}</label>{{ field }}{% endif %}
+ {% if field.help_text %}<div class="field-help" id="{{ field.auto_id }}_helptext">{{ field.help_text|safe }}</div>{% endif %}
+ {% if field.errors %}<div class="field-errors" role="alert">{{ field.errors }}</div>{% endif %}
+</div>{% endif %}{% endif %}

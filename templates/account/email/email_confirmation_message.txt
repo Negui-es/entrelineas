@@ -1,0 +1,10 @@
+Hola:
+
+Tu espacio en Entrelíneas está casi listo. Confirma tu dirección de email abriendo este enlace:
+
+{{ activate_url }}
+
+Tus reseñas y notas serán privadas por defecto.
+Si no has solicitado esta cuenta, puedes ignorar este mensaje.
+
+Entrelíneas · Los libros terminan. Lo que te dejan, se queda.

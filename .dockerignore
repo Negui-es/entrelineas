@@ -1,0 +1,17 @@
+.venv
+.git
+.env
+.env.*
+db.sqlite3*
+**/__pycache__
+staticfiles
+backups
+media
+docs
+logs
+.private
+*.pem
+*.key
+local-email
+*.log
+*.dump

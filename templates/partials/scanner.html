@@ -1,0 +1,13 @@
+{% load i18n library_tags %}
+<dialog id="scanner-dialog" class="scanner-dialog" aria-labelledby="scanner-title" aria-describedby="scanner-instructions">
+ <div class="scanner-header"><div><h2 id="scanner-title">{% translate "Escanear código" %}</h2><p id="scanner-instructions">{% translate "Encuadra el código de barras de la contraportada." %}</p></div><button type="button" class="scanner-close" id="scan-close" aria-label="{% translate 'Cerrar escáner' %}"><span aria-hidden="true">×</span></button></div>
+ <div class="scanner-viewport" id="scanner-viewport">
+  <video id="barcode-video" muted autoplay playsinline aria-hidden="true" hidden></video>
+  <div class="scanner-guide" id="scanner-guide" aria-hidden="true" hidden><span></span><span></span><span></span><span></span></div>
+  <span class="scanner-live" id="scanner-live" hidden><span aria-hidden="true"></span>{% translate "Cámara activa" %}</span>
+  <div class="scanner-state" id="scanner-state"><span class="search-spinner" id="scan-spinner" aria-hidden="true"></span><span id="scan-state-icon" aria-hidden="true" hidden>{% icon 'scan' %}</span><h3 id="scan-state-title">{% translate "Abriendo la cámara…" %}</h3><button type="button" class="button secondary small" id="scan-retry" hidden>{% translate "Reintentar cámara" %}</button></div>
+ </div>
+ <div class="scanner-feedback"><p id="scan-status" role="status" aria-live="polite" aria-atomic="true"></p></div>
+ <div class="scanner-alternatives"><button type="button" class="text-link" id="scan-photo">{% translate "Usar una foto" %}</button><span aria-hidden="true">·</span><button type="button" class="text-link" id="scan-manual">{% translate "Escribir ISBN" %}</button><input id="barcode-photo" type="file" accept="image/*" hidden></div>
+ <p class="scanner-privacy">{% icon 'lock' %} {% translate "La imagen se procesa en tu dispositivo." %}</p>
+</dialog>

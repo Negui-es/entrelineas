@@ -1,0 +1,72 @@
+services:
+  db:
+    image: postgres:17-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: entrelineas
+      POSTGRES_USER: entrelineas
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Configura POSTGRES_PASSWORD en .env}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: [CMD-SHELL, pg_isready -U entrelineas -d entrelineas]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks: [database]
+  web:
+    build: .
+    restart: unless-stopped
+    volumes: [book_covers:/app/media, runtime:/app/runtime]
+    environment:
+      DEBUG: ${DEBUG:-true}
+      SECRET_KEY: ${SECRET_KEY:?Configura SECRET_KEY en .env}
+      DATABASE_URL: postgresql://entrelineas:${POSTGRES_PASSWORD:?Configura POSTGRES_PASSWORD en .env}@db:5432/entrelineas
+      ALLOWED_HOSTS: ${ALLOWED_HOSTS:-localhost,127.0.0.1}
+      CSRF_TRUSTED_ORIGINS: ${CSRF_TRUSTED_ORIGINS:-}
+      TRUST_PROXY: ${TRUST_PROXY:-false}
+      REGISTRATION_OPEN: ${REGISTRATION_OPEN:-false}
+      CATALOG_USER_AGENT: ${CATALOG_USER_AGENT:-Entrelineas/0.1 (personal reading application)}
+      CATALOG_PREFERRED_LANGUAGE: ${CATALOG_PREFERRED_LANGUAGE:-es}
+      BOKTYVEN_API_TOKEN: ${BOKTYVEN_API_TOKEN:-}
+      EMAIL_BACKEND: ${EMAIL_BACKEND:-django.core.mail.backends.console.EmailBackend}
+      EMAIL_HOST: ${EMAIL_HOST:-}
+      EMAIL_PORT: ${EMAIL_PORT:-587}
+      EMAIL_HOST_USER: ${EMAIL_HOST_USER:-}
+      EMAIL_HOST_PASSWORD: ${EMAIL_HOST_PASSWORD:-}
+      EMAIL_USE_TLS: ${EMAIL_USE_TLS:-true}
+      EMAIL_USE_SSL: ${EMAIL_USE_SSL:-false}
+      DEFAULT_FROM_EMAIL: ${DEFAULT_FROM_EMAIL:-Entrelíneas <noreply@localhost>}
+      EMAIL_FILE_PATH: /app/runtime/local-email
+      CATALOG_LOG_FILE: /app/runtime/catalog-debug.log
+    depends_on:
+      db:
+        condition: service_healthy
+    # Solo accesible desde el propio miniPC. No publicar en 0.0.0.0.
+    ports: ['127.0.0.1:${LOCAL_PORT:-18743}:8000']
+    networks: [database, frontend]
+    healthcheck:
+      test: [CMD, python, -c, "import os,urllib.request; host=os.environ['ALLOWED_HOSTS'].split(',')[0]; r=urllib.request.Request('http://127.0.0.1:8000/salud/',headers={'Host':host,'X-Forwarded-Proto':'https'}); urllib.request.urlopen(r,timeout=5)"]
+      interval: 30s
+      timeout: 10s
+      start_period: 30s
+      retries: 3
+  tunnel:
+    image: cloudflare/cloudflared:latest
+    restart: unless-stopped
+    profiles: [public]
+    network_mode: host
+    command: tunnel --no-autoupdate run
+    environment:
+      TUNNEL_TOKEN: ${TUNNEL_TOKEN:-}
+    depends_on:
+      web:
+        condition: service_healthy
+volumes:
+  postgres_data:
+  book_covers:
+  runtime:
+networks:
+  database:
+    internal: true
+  frontend:

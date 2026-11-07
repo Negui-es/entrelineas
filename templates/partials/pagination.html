@@ -1,0 +1,14 @@
+{% load i18n library_tags %}
+<div data-panel-pagination>
+{% if page_obj.has_other_pages %}
+<nav class="pagination" aria-label="{% translate 'Páginas' %}" data-page-links>
+ {% if page_obj.has_previous %}<a class="button secondary" href="{% page_url page=page_obj.previous_page_number %}" rel="prev">{% translate '← Anterior' %}</a>{% endif %}
+ <span>{% translate 'Página' %} {{ page_obj.number }} {% translate 'de' %} {{ page_obj.paginator.num_pages }}</span>
+ {% if page_obj.has_next %}<a class="button secondary" href="{% page_url page=page_obj.next_page_number %}" rel="next">{% translate 'Siguiente →' %}</a>{% endif %}
+</nav>
+<div class="panel-load-more" data-load-controls hidden>
+ <p class="muted small" role="status" aria-live="polite" data-load-status></p>
+ <button class="button secondary" type="button" data-load-more>{% translate 'Cargar más' %}</button>
+</div>
+{% endif %}
+</div>

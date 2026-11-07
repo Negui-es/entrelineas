@@ -1,0 +1,28 @@
+{% load i18n %}
+<!doctype html>
+{% get_current_language as page_language %}<html lang="{{ page_language }}">
+<head>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="robots" content="noindex, nofollow"><meta name="color-scheme" content="light dark">
+ <title>{{ error_code }} {% translate "· Una pausa en la historia · Entrelíneas" %}</title>
+ <link rel="stylesheet" href="/static/errors.css">
+</head>
+<body>
+ <a class="skip" href="#contenido">{% translate "Ir al contenido" %}</a>
+ <header><a class="brand" aria-label="Entrelíneas" href="{% if offline %}https://entrelineas.negui.es{{ home_url }}{% else %}{{ home_url }}{% endif %}">{% include "brand/logo.html" %}</a><span class="header-note">{% translate "Cada historia tiene sus pausas." %}</span></header>
+ <main id="contenido" class="error-layout">
+  <div class="error-art" aria-hidden="true"><span class="art-label">{% translate "Pequeños imprevistos literarios" %}</span><span class="error-number">{{ error_code }}</span><div class="books"><span class="book book-one">PLOT<br>TWIST</span><span class="book book-two">{% translate "un capítulo" %}<br>{% translate "pendiente" %}</span><span class="book book-three">{% translate "continuará…" %}</span><span class="bookmark"></span></div><span class="art-star">✳</span><span class="art-caption">{% translate "Hasta las mejores historias tienen un giro inesperado." %}</span></div>
+  <section class="error-copy">
+   <p class="eyebrow">{% if error_code == 404 %}{% translate "404 · Página no encontrada" %}{% elif error_code == 500 %}{% translate "500 · Algo ha fallado" %}{% else %}{% translate "503 · Biblioteca en pausa" %}{% endif %}</p>
+   <h1 id="error-headline">{{ message.headline }}</h1>
+   <p class="joke" id="error-joke">{{ message.joke }}</p>
+   <p class="explanation">{{ explanation }}</p>
+   {% if offline %}<p id="offline-write-warning" hidden class="explanation">{{ write_notice }}</p>{% endif %}
+   <div class="actions"><a class="button primary" href="{% if offline %}https://entrelineas.negui.es{{ home_url }}{% else %}{{ home_url }}{% endif %}">{% translate "Volver al inicio" %} <span aria-hidden="true">↗</span></a>{% if retry %}<a class="button secondary" href="">{% translate "Volver a intentarlo" %}</a>{% elif error_code == 404 %}<a class="button secondary" href="{{ search_url }}">{% translate "Buscar un libro" %}</a>{% endif %}</div>
+   <p class="footnote">{% if error_code == 404 %}{% translate "Puede que esta página no exista. Tu próxima lectura, seguro que sí." %}{% else %}{% translate "No hace falta actualizar sin parar. También es buen momento para leer una página." %}{% endif %}</p>
+  </section>
+ </main>
+ <footer><span>{% translate "Los libros terminan. Lo que te dejan, se queda." %}</span><span>{% translate "Nos vemos entre líneas." %}</span></footer>
+ {% if offline %}<div id="offline-messages" data-messages="{{ offline_messages }}" hidden></div><script src="/static/error-offline.js"></script>{% endif %}
+</body>
+</html>

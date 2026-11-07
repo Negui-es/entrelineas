@@ -1,0 +1,9 @@
+{% extends "base.html" %}{% load i18n %}
+{% block title %}{% if item %}{% translate "Editar deseo" %}{% else %}{% translate "Añadir a deseos" %}{% endif %}{% endblock %}
+{% block utility %}{% endblock %}
+{% block content %}<div class="form-page"><a class="back-link" href="{% url 'wishlist' %}">{% translate "← Lista de deseos" %}</a><div class="page-heading"><h1>{% if item %}{% translate "Editar deseo" %}{% else %}{% translate "Añadir a deseos" %}{% endif %}</h1></div>
+<form method="post" class="panel stack-form">{% csrf_token %}
+{% if form.non_field_errors %}<div class="form-errors" role="alert">{{ form.non_field_errors }}</div>{% endif %}
+<div class="form-grid"><div class="full-row">{% include "partials/field.html" with field=form.title %}</div>{% include "partials/field.html" with field=form.author %}{% include "partials/field.html" with field=form.priority %}<div class="full-row">{% include "partials/field.html" with field=form.purchase_url %}</div></div>
+<details class="optional-fields" {% if form.edition.errors or form.color.errors %}open{% endif %}><summary>{% translate "Edición y portada" %}</summary><div class="form-grid">{% include "partials/field.html" with field=form.edition %}{% include "partials/field.html" with field=form.color %}</div></details>
+<div class="form-actions"><button class="button primary" type="submit">{% translate "Guardar deseo" %}</button><a class="button secondary" href="{% url 'wishlist' %}">{% translate "Cancelar" %}</a></div></form></div>{% endblock %}

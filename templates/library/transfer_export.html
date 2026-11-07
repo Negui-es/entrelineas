@@ -1,0 +1,26 @@
+{% load i18n library_tags %}
+<div data-wizard-step="export" class="wizard-screen" {% if transfer_stage != 'export' %}hidden{% endif %}>
+ <a href="{% url 'library_transfer' %}" class="text-link wizard-back" data-wizard-home>← {% translate "Elegir otro camino" %}</a>
+ <p class="wizard-kicker">{% translate "Preparamos el equipaje" %}</p>
+ <h2 tabindex="-1" data-step-heading>{% translate "Tu historia lectora, para llevar" %}</h2>
+ <p class="wizard-intro">{% translate "Una copia de toda tu biblioteca. Para guardarla o volver a traerla cuando quieras." %}</p>
+ <div class="import-stats"><div><strong>{{ export_summary.books }}</strong><span>{% translate "Biblioteca" %}</span></div><div><strong>{{ export_summary.reviews }}</strong><span>{% translate "Reseñas" %}</span></div><div><strong>{{ export_summary.wishes }}</strong><span>{% translate "Lista de deseos" %}</span></div></div>
+ <p class="transfer-includes">{% translate "También viajan tus notas, fechas, progreso y valoraciones." %}</p>
+ <p class="field-errors" data-export-error role="alert" hidden></p>
+ <a class="button primary transfer-download" href="{% url 'library_export' %}" data-export-download>{% translate "Preparar mi archivo CSV" %} {% icon 'arrow' %}</a>
+ <details class="wizard-help transfer-help"><summary>{% translate "¿Qué incluye mi archivo?" %}</summary><p>{% translate "El archivo incluye tus lecturas, reseñas, notas personales y deseos, con sus fechas y valoraciones decimales." %}</p><p>{% translate "Las fotos de portada no se incluyen en el CSV. Se conservan los enlaces externos de portada." %}</p></details>
+ <p class="wizard-footnote">{% icon 'library' %}{% translate "Es una copia: tu biblioteca se queda aquí tal como está." %}</p>
+</div>
+<div data-wizard-step="exporting" class="wizard-screen wizard-loading" hidden role="status" aria-live="polite">
+ <div class="wizard-book-loading" aria-hidden="true"><span></span><span></span><span></span></div>
+ <p class="wizard-kicker">{% translate "Preparamos el equipaje" %}</p>
+ <h2 tabindex="-1" data-step-heading>{% translate "Reuniendo tus historias…" %}</h2>
+ <p class="wizard-intro">{% translate "Estamos preparando el archivo con tus libros y recuerdos lectores." %}</p>
+</div>
+<div data-wizard-step="exported" class="wizard-screen" hidden role="status">
+ <span class="import-symbol" aria-hidden="true">{% icon 'check' %}</span>
+ <p class="wizard-kicker">{% translate "Listos para el viaje" %}</p>
+ <h2 tabindex="-1" data-step-heading>{% translate "Tu biblioteca ya tiene equipaje" %}</h2>
+ <p class="wizard-intro">{% translate "La descarga ha comenzado. Guarda el archivo donde prefieras y vuelve a traerlo cuando quieras." %}</p>
+ <div class="form-actions import-confirm"><a class="button primary" href="{% url 'library' %}">{% translate "Ver mi biblioteca" %}</a><a class="text-link" href="{% url 'library_transfer' %}" data-wizard-home>{% translate "Elegir otro camino" %}</a></div>
+</div>
